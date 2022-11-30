@@ -1,18 +1,65 @@
 .call{
-    padding-bottom: 150px;
+   
 }
 
 img {
     width: 35rem;
     margin-top: 50vh;
     margin-left: 5vh;
+    padding-bottom: 70px;
 }
 
 video {
     z-index: -1;
     position: absolute;
     width: 1346px;
-    height: 750px;
+    height: 780px;
     object-fit: cover;
     top: 0px;    
 }
+
+.cross {
+    justify-content: center;
+    margin-bottom: -200px;
+
+}
+
+.cross span{
+    display: flex;
+    justify-content: center;
+}
+
+.cross_one {
+    animation: cross-one-animation 3s infinite;
+}
+
+
+@keyframes cross-one-animation {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.cross_two {
+    margin-top: -10px;
+    animation: cross-two-animation 3s infinite;
+}
+
+@keyframes cross-two-animation {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+

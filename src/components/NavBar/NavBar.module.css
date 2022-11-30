@@ -6,8 +6,10 @@
     font-size: 1.2rem;
 }
 
-.menu p{
+a{
     padding: 0.7rem;
-    margin: 1.2rem 1.3rem 0px;
+    margin: 1.2rem 0.7rem 0px;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }

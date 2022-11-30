@@ -2,7 +2,7 @@ import styles from './About.module.css';
 
 export const About = () => {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
         <h1>Sobre</h1>
         <p>Especializado em solucionar problemas e entusiasta de novas tecnologias, atualmente possuo foco em desenvolvimento em web com React.
 

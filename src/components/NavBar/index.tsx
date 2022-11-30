@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './NavBar.module.css';
 
 export const NavBar = () => {
@@ -6,11 +5,12 @@ export const NavBar = () => {
 
   return (
     <nav className={styles.menu}>
-        <p>Inicio</p>
-        <p>Sobre</p>
-        <p>Tecnologias</p>
-        <p>Portfolio</p>
-        <p>Contato</p>
+        <a href='/#'>Inicio</a>
+        <a href='/#about'>Sobre</a>
+        <a href='/#jobs'>Experiência</a>
+        <a href='/#technologies'>Tecnologias</a>
+        <a href='/#about'>Portfolio</a>
+        <a href='/#about'>Contato</a>
     </nav>
   )
 }
