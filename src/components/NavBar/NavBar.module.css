@@ -1,0 +1,13 @@
+.menu {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.menu p{
+    padding: 0.7rem;
+    margin: 1.2rem 1.3rem 0px;
+    cursor: pointer;
+}
