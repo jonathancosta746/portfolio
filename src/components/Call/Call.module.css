@@ -1,12 +1,18 @@
 .call{
-    margin-top: 15vh;
-
-    justify-content: flex-start;
+    padding-bottom: 150px;
 }
 
 img {
     width: 35rem;
-    display: block;
     margin-top: 50vh;
     margin-left: 5vh;
+}
+
+video {
+    z-index: -1;
+    position: absolute;
+    width: 1346px;
+    height: 750px;
+    object-fit: cover;
+    top: 0px;    
 }
