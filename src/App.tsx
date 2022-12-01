@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Home } from './pages/Home/Home'
 import { About } from './components/About'
-import { Jobs } from './components/Jobs';
+import { Works } from './components/Works';
 import { Tecnologies } from './components/Technologies';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Home />
       <About />
-      <Jobs />
+      <Works />
       <Tecnologies />
     </div>
   );

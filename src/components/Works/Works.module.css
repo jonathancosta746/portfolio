@@ -1,0 +1,49 @@
+.works {
+    display: grid;
+    grid-template-areas:
+    "title title title"
+    "work_img_greyhound work_detail_greyhound work_detail_greyhound"
+    "work_img_philips work_detail_philips work_detail_philips";
+    grid-template-columns: 50vh auto auto;
+    grid-template-rows: 100px 200px 200px;
+    grid-gap: 5px;
+    padding: 2rem;
+}
+
+h1{
+    grid-area: title;
+}
+
+.work_image{
+   text-align: center;
+    
+}
+
+.work_img_greyhound{
+    grid-area: work_img_greyhound; 
+    max-width: 100px;
+    margin: auto ;
+    padding: 20px;
+}
+
+.work_img_philips{
+    grid-area: work_img_philips; 
+    max-width: 100px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.work_detail_greyhound{
+    grid-area: work_detail_greyhound;
+    padding: 0rem 6rem 0rem 3rem;
+    border-left: solid rgba(155, 161, 216, 0.342) 1px;
+}
+
+.work_detail_philips{
+    grid-area: work_detail_philips;
+    padding: 0rem 6rem 0rem 3rem;
+    border-left: solid rgba(155, 161, 216, 0.342) 1px;
+}
+
+
