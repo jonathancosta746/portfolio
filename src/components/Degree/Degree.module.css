@@ -1,0 +1,29 @@
+.degree_h1{
+    padding: 6rem 0rem 3rem 0rem;
+}
+
+.degree_item{
+    display: grid;
+    grid-template-areas:
+    "degree_image degree_details degree_details";
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.degree_image{
+    grid-area: degree_image;
+    text-align: right; 
+}
+
+.degree_img{
+    max-width: 100px;
+    margin: auto ;
+    padding: 20px;
+}
+
+.degree_detail{
+    grid-area: degree_details;
+    text-align: left;
+}
+
+
+

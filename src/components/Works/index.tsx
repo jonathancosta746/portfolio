@@ -25,9 +25,7 @@ export const Works = () => {
             <h2>Philips</h2>
                 <p>Realizava o treinamento das equipes dos hospitais da rede Opty em Brasília durante a migração de sistemas para o sistema Tasy HTML e Java. Também atuando na alimentação de dados do sistema conforme necessário e adaptação da UI para o hospital.
                 </p>
-          </div>
-      
-            
+          </div>       
     </div>
   )
 }
