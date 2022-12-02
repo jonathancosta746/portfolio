@@ -6,6 +6,7 @@ import { Works } from './components/Works';
 import { Tecnologies } from './components/Technologies';
 import { Degree } from './components/Degree';
 import { Appointment } from './components/appointment';
+import { Footer } from './components/footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Tecnologies />
       <Degree />
       <Appointment />
+      <Footer />
     </div>
   );
 }
