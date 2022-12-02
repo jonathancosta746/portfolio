@@ -6,10 +6,9 @@
     font-size: 1.2rem;
 }
 
-a{
+.navbar_a{
     padding: 0.7rem;
     margin: 1.2rem 0.7rem 0px;
     cursor: pointer;
-    text-decoration: none;
     color: white;
 }

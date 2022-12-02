@@ -8,7 +8,7 @@ export const Tecnologies = () => {
           <div className={styles.technologies}>
             <div>
               <i className="devicon-react-original colored"></i>
-              <p>React.Js/Native</p>
+              <p>ReactJs/Native</p>
             </div>
             <div>
               <i className="devicon-typescript-plain colored"></i>

@@ -3,13 +3,25 @@ import styles from './Degree.module.css';
 import LogoDio from '../../assets/dio_logo.png';
 import LogoUdemy from '../../assets/Udemy-logo.png';
 import LogoBradesco from '../../assets/logo-fundacao-bradesco.png';
+import LogoOrangeTech from '../../assets/orangeTech.png';
 
 
 export const Degree = () => {
   return (
-    <div>
     <div id="degree" className={styles.degree}>
         <h1 className={styles.degree_h1}>Certificados</h1>
+
+          <div className={styles.degree_item}>
+            <div className={styles.degree_image}>
+              <img src={LogoOrangeTech} alt="Logo OrangeTech" className={styles.degree_img}/>
+            </div>
+          
+            <div className={styles.degree_detail}>
+              <h2>BootCamp JavaScript, TypeScript, e React.Js - Orange Tech +</h2>
+              <p>Udemy + Banco Inter</p>
+            </div>
+          </div>
+
 
           <div className={styles.degree_item}>
             <div className={styles.degree_image}>
@@ -68,10 +80,7 @@ export const Degree = () => {
               <h2>Desenvolvimento em HTML</h2>
               <p>Fundação Bradesco</p>
             </div>
-          </div>
-
-    
-    </div>
+          </div>  
     </div>
   )
 }

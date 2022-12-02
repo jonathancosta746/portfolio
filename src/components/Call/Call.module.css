@@ -23,6 +23,7 @@ video {
 .cross span{
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .cross_one {
