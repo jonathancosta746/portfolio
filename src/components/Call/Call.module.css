@@ -1,4 +1,8 @@
-img {
+.call{
+    position: relative;
+}
+
+.logo_image {
     width: 35rem;
     padding-top: 20rem;
     padding-left: 4rem;
@@ -11,7 +15,7 @@ video {
     width: 1346px;
     height: 780px;
     object-fit: cover;
-    top: 0px;    
+    top: -200px;    
 }
 
 .cross {

@@ -10,7 +10,7 @@ export const Call = () => {
         <source src={HomeVideo} type="video/mp4" className={styles.video}></source>
       </video>
       
-      <img src={HomeImage} alt="Jonathan Costa"></img>
+      <img src={HomeImage} alt="Jonathan Costa" className={styles.logo_image}></img>
 
       <a href='#about' className={styles.cross}>
         <div className={styles.cross_one}>

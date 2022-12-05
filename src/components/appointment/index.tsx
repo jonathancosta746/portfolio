@@ -24,29 +24,30 @@ export const Appointment = () => {
 
                 <form action="https://formspree.io/f/" method="POST" className={styles.appointment_form}>
                     <div className={styles.form_group}>
-                        <label htmlFor="name">Nome</label>
-                        <input type="text" placeholder="Digite seu nome" name="Nome do Cliente" id="name" required></input>
+                        <input type="text" placeholder="Nome" name="Nome do Cliente" id="name" required></input>
                     </div>
 
                     <div className={styles.form_group}>
-                        <label htmlFor="phone">Telefone</label>
-                        <input type="number" placeholder="Digite seu telefone" name="Numero de Telefone" id="number" required></input>
+                        <input type="number" placeholder="Telefone" name="Telefone do Cliente" id="number" required></input>
                     </div>
 
                     <div className={styles.form_group}>
-                        <label htmlFor="return">Selecione a forma de retorno</label>
-                        <select name="return" required>
+                        <input type="email" placeholder="Email" name="Email do Cliente" id="number" required></input>
+                    </div>
+
+                    <div className={styles.form_group}>
+                        <select name="Forma de Retorno" placeholder="Forma de retorno" required>
+                            <option value="" disabled selected>Selecione uma forma de retorno</option>
                             <option value="whatsApp">WhatsApp</option>
                             <option value="email">E-mail</option>
                         </select>
                     </div>
 
 
-                    <div className={styles.form__group}>
-                        <label htmlFor="message">Mensagem</label>
-                        <textarea name="Mensagem" id="message" rows={6} placeholder="Adicione uma mensagem" required></textarea>
+                    <div className={styles.form_group}>
+                        <textarea name="Mensagem do Cliente" id="message" rows={5} placeholder="Adicione uma mensagem" required></textarea>
                     </div>
-                    <input type="submit" value="Enviar Mensagem" className={styles.btn_primary}></input>
+                    <input type="submit" value="Enviar Mensagem" className={styles.btn_send}></input>
                 </form>
             </div>
     </div>
