@@ -29,3 +29,25 @@ button{
   border: none;
   margin: 0.1rem;
 }
+
+.swiper {
+  overflow: hidden!important;
+  overflow-y: visible!important;
+  display: block!important;
+}
+
+.swiper-slide{
+  margin: 0px;
+}
+
+.swiper-wrapper{
+  padding-bottom: 50px;
+}
+
+.swiper-free-mode>.swiper-wrapper
+.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  padding-bottom: -50px;
+}
