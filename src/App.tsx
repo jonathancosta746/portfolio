@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Home } from './pages/Home/Home';
+import { NavBar } from './components/NavBar';
 import { Projects } from './components/Projects';
 import { About } from './components/About';
 import { Works } from './components/Works';
@@ -8,12 +8,15 @@ import { Tecnologies } from './components/Technologies';
 import { Degree } from './components/Degree';
 import { Appointment } from './components/appointment';
 import { Footer } from './components/footer';
+import { Call } from './components/Call';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <NavBar />
+      <Call />
       <Projects />
       <About />
       <Works />

@@ -3,6 +3,8 @@ import styles from './Projects.module.css'
 import ProjectMarioImg from '../../assets/mariobros_project.png'
 import ProjectRealStateImg from '../../assets/realstate_project.png'
 import ProjectNetflixCloneImg from '../../assets/netflix_project.png'
+import ProjectSecretWordImg from '../../assets/secretword_project.png'
+import ProjectHospitalLandingPageImg from '../../assets/landingpageHospital_project.png'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -17,21 +19,19 @@ import { FreeMode, Pagination } from "swiper";
 
 export const Projects = () => {
   return (
-    <Swiper
-        slidesPerView={3}
-        spaceBetween= {32}
-        freeMode={true}
-        pagination={{clickable: true,}}
-        modules={[FreeMode, Pagination]}
-        grabCursor={true}
-  
+    <div>
         
-
-        className="mySwiper"
-      >
         <div className={styles.project_container}>
-            <h1>Projetos</h1>
-                <div >
+        <h1 className={styles.project_h1}>Projetos</h1>
+            <Swiper
+                slidesPerView={1}
+                spaceBetween= {32}
+                pagination={{clickable: true,}}
+                modules={[FreeMode, Pagination]}
+                
+                className="mySwiper"
+            >
+                <div>
                         <div className="swiper-wrapper">
                             <SwiperSlide>
                                 <article className={styles.project_card}>
@@ -89,7 +89,25 @@ export const Projects = () => {
 
                             <SwiperSlide>
                                 <article className={styles.project_card}>
-                                    <img src={ProjectNetflixCloneImg} alt="Logo do Projeto" className={styles.project_img} />
+                                    <img src={ProjectSecretWordImg} alt="Logo do Projeto" className={styles.project_img} />
+                                    <div className={styles.project_data}>
+                                        <h2 className={styles.project_title}>
+                                            Secret Word Game
+                                        </h2>
+                                        <h3 className={styles.project_description}>
+                                            Clone da HomePage de usuário da Netflix.
+                                        </h3>
+                                        <div className={styles.project_btn}>
+                                            <button className={styles.btn_github}>GitHub</button>
+                                            <button className={styles.btn_web}>Acesse</button>
+                                        </div>
+                                    </div>
+                                </article>
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                <article className={styles.project_card}>
+                                    <img src={ProjectHospitalLandingPageImg} alt="Logo do Projeto" className={styles.project_img} />
                                     <div className={styles.project_data}>
                                         <h2 className={styles.project_title}>
                                             Clone NetFlix.
@@ -106,8 +124,8 @@ export const Projects = () => {
                             </SwiperSlide>
                         </div>
                 </div>
+            </Swiper>
         </div>
-    </Swiper>
-
+    </div>
   )
 }

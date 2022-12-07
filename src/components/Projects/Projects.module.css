@@ -1,17 +1,20 @@
+.project_h1{
+    padding: 4.5rem 0rem 3rem 0rem;
+}
+
 .project_container{
-    padding: 5rem 15rem 5rem 15rem;
+    padding: 0rem 2rem 0rem 2rem;
+    background-color: #17151F;
 }
   
 .project_card{
-    width: 350px;
-    height: 450px;
+    width: 330px;
+    height: 410px;
     padding: 0.5rem .5rem .5rem 0.5rem;
     border-radius: 0.4rem;
     transition: .4s;
     background-color: #292636;
-    border: solid 1px #39334e;
-    position: relative;
-    margin: 0px;
+    margin: solid 1px #39334e;
 }
 
 .project_card:hover{
@@ -24,7 +27,6 @@
     height: 200px;
     object-fit: cover;
 }
-  
   
 .project_title{
     font-size: var(--h2-font-size);
