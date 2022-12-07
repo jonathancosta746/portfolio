@@ -36,15 +36,6 @@ export const Appointment = () => {
                     </div>
 
                     <div className={styles.form_group}>
-                        <select name="Forma de Retorno" placeholder="Forma de retorno" required>
-                            <option value="" disabled selected>Selecione uma forma de retorno</option>
-                            <option value="whatsApp">WhatsApp</option>
-                            <option value="email">E-mail</option>
-                        </select>
-                    </div>
-
-
-                    <div className={styles.form_group}>
                         <textarea name="Mensagem do Cliente" id="message" rows={5} placeholder="Adicione uma mensagem" required></textarea>
                     </div>
                     <input type="submit" value="Enviar Mensagem" className={styles.btn_send}></input>
