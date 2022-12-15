@@ -1,6 +1,8 @@
 .about {
+    display: flex;
     text-align: center;
     align-items: center;
-    padding: 6rem 15rem 3rem 15rem;
-    background-color:  #1D1B27;
+    padding: 6rem 3rem 6rem 3rem;
+    width: 100vw;
+ 
 }

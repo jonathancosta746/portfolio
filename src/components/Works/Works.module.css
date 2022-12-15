@@ -1,49 +1,26 @@
-.works {
-    display: grid;
-    grid-template-areas:
-    "title title title"
-    "work_img_greyhound work_detail_greyhound work_detail_greyhound"
-    "work_img_philips work_detail_philips work_detail_philips";
-    grid-template-columns: 50vh auto auto;
-    grid-template-rows: 100px 200px 200px;
-    grid-gap: 5px;
-    padding: 2rem;
+.work_h1{
+    padding: 6rem 0rem 3rem 0rem;
 }
 
-h1{
-    grid-area: title;
+.work_item{
+    display: grid;
+    grid-template-areas:
+    "work_image work_details work_details";
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .work_image{
-   text-align: center;
-    
+    grid-area: work_image;
+    text-align: right; 
 }
 
-.work_img_greyhound{
-    grid-area: work_img_greyhound; 
+.work_img{
     max-width: 100px;
     margin: auto ;
     padding: 20px;
 }
 
-.work_img_philips{
-    grid-area: work_img_philips; 
-    max-width: 100px;
-    margin: auto;
-    padding: 20px;
-
+.work_detail{
+    grid-area: work_details;
+    text-align: left;
 }
-
-.work_detail_greyhound{
-    grid-area: work_detail_greyhound;
-    padding: 0rem 6rem 0rem 3rem;
-    border-left: solid rgba(155, 161, 216, 0.342) 1px;
-}
-
-.work_detail_philips{
-    grid-area: work_detail_philips;
-    padding: 0rem 6rem 0rem 3rem;
-    border-left: solid rgba(155, 161, 216, 0.342) 1px;
-}
-
-

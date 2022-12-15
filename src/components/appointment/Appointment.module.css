@@ -1,13 +1,8 @@
-.appointment_h1{
-  padding: 6rem 0rem 3rem 0rem;
-}
-
 .appointment{
   display: grid;
   grid-template-areas:
-  "appointment_info appointment_form";
-  grid-template-columns: repeat(2, 1fr);
-  padding: 0rem 10rem 6rem 10rem;
+  "appointment_info"
+  "appointment_form";
 }
     
 .appointment_form {
@@ -24,7 +19,7 @@
 
 .appointment_info {
   grid-area: appointment_info;
-  padding-right: 1rem;
+  padding: 0rem 2rem 0rem 2rem;
 }
     
 .appointment_info span{

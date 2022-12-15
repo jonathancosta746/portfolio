@@ -1,17 +1,12 @@
-.project_h1{
-    padding: 4.5rem 0rem 3rem 0rem;
-}
-
-.project_container{
-    padding: 0rem 2rem 0rem 2rem;
-    background-color: #17151F;
+.project{
+    padding: 3rem 1rem 3rem 1rem; 
 }
   
 .project_card{
     width: 330px;
     height: 410px;
     padding: 0.5rem .5rem .5rem 0.5rem;
-    border-radius: 0.4rem;
+    border-radius: 1rem;
     transition: .4s;
     background-color: #292636;
     margin: solid 1px #39334e;
@@ -22,7 +17,7 @@
 }
   
 .project_img{
-    border-radius: 0.4rem;
+    border-radius: 1rem;
     width: 100%;
     height: 200px;
     object-fit: cover;
