@@ -3,9 +3,11 @@ import LogoStyledComponents from '../../assets/styled-components-logo.png'
 
 export const Tecnologies = () => {
   return (
-    <div id="technologies" >
-        <h1 className={styles.technologies_h1}>Tecnologias</h1>
-          <div className={styles.technologies}>
+    <div id="technologies" className={styles.technologies} >
+        <h1>Tecnologias</h1>
+          <div className={styles.technologies_content}>
+            <div >
+            </div>
             <div>
               <i className="devicon-react-original colored"></i>
               <p>ReactJs/Native</p>

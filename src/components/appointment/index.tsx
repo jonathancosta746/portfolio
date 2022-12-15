@@ -2,8 +2,8 @@ import styles from './Appointment.module.css';
 
 export const Appointment = () => {
   return (
-    <div id='contact'>
-        <h1 className={styles.appointment_h1}>Contato</h1>
+    <div id='contact' className={styles.contact}>
+        <h1>Contato</h1>
             <div className={styles.appointment}>
                 <div className={styles.appointment_info}>
                     <h2>Envie uma mensagem<span>.</span></h2>

@@ -9,7 +9,7 @@ import LogoOrangeTech from '../../assets/orangeTech.png';
 export const Degree = () => {
   return (
     <div id="degree" className={styles.degree}>
-        <h1 className={styles.degree_h1}>Certificados</h1>
+        <h1>Certificados</h1>
 
           <div className={styles.degree_item}>
             <div className={styles.degree_image}>
@@ -77,7 +77,7 @@ export const Degree = () => {
             </div>
           
             <div className={styles.degree_detail}>
-              <h2>Desenvolvimento em HTML</h2>
+              <h2>Desenvolvimento em HTML.</h2>
               <p>Fundação Bradesco</p>
             </div>
           </div>  

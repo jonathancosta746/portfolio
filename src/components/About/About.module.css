@@ -1,8 +1,8 @@
-.about {
-    display: flex;
+.about{
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.about_items {
     text-align: center;
     align-items: center;
-    padding: 6rem 3rem 6rem 3rem;
-    width: 100vw;
- 
 }

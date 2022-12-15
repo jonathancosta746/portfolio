@@ -1,3 +1,7 @@
+.contact{
+    padding: 2rem 2rem 2rem 2rem;
+}
+
 .appointment{
   display: grid;
   grid-template-areas:
@@ -15,22 +19,29 @@
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: rgb(0 0 0 / 50%) 0px 20px 50px;
-  }
+    padding-bottom: 2rem
+}
 
 .appointment_info {
   grid-area: appointment_info;
-  padding: 0rem 2rem 0rem 2rem;
+}
+
+.appointment_info > h2{
+  margin-top: -1rem;
+}
+
+.appointment_info > p{
+  padding-bottom: 2rem;
 }
     
 .appointment_info span{
  color: #02B1C3;
  font-size: 3rem;
 }
-    
+
     
 .form_group{
   font-size: 0.85rem;
-  margin-bottom: 0.4rem;
   display: inline-block;
   font-weight: 600;
 }
@@ -53,13 +64,19 @@ select{
 .btn_send{
   font-weight: bold;
   background-color: #02B1C3;
+  color: black;
   cursor: pointer;
+  transition: .5s;
+}
+.btn_send:hover{
+  color: white;
 }
 
 .appointment_button_linkedin{
   background-color: #0358ad;
   color: white;
   margin-left: 0rem;
+  transition: .5s;
 }
 .appointment_button_linkedin:hover{
   background-color: #146bc2;
@@ -68,6 +85,7 @@ select{
 .appointment_button_github{
   background-color: rgba(255, 255, 255, 0.87);
   color: black;
+  transition: .5s;
 }
 .appointment_button_github:hover{
   background-color: rgba(255, 255, 255, 0.952);
@@ -76,6 +94,7 @@ select{
 .appointment_button_youtube{
   background-color: rgb(190, 5, 5);
   color: white;
+  transition: .5s;
 }
 .appointment_button_youtube:hover{
   background-color: rgb(218, 15, 15);
