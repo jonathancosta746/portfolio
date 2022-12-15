@@ -6,8 +6,14 @@ import HomeVideo from '../../assets/HomeVideo.mp4'
 export const Call = () => {
   return (
     <div className={styles.call}>
-      <video autoPlay muted loop>
-        <source src={HomeVideo} type="video/mp4" className={styles.video}></source>
+      <video 
+        autoPlay={true} 
+        loop={true}
+        controls={false} 
+        playsInline
+        muted 
+        src={HomeVideo}
+        className={styles.video}>
       </video>
       
       <img src={HomeImage} alt="Jonathan Costa" className={styles.logo_image}></img>
