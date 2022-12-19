@@ -3,6 +3,9 @@ import styles from './Call.module.css';
 import HomeImage from '../../assets/HomeImage.png'
 import HomeVideo from '../../assets/HomeVideo.mp4'
 
+import {Fade} from "react-reveal"
+
+
 export const Call = () => {
   return (
     <div className={styles.call}>
@@ -16,7 +19,10 @@ export const Call = () => {
         className={styles.video}>
       </video>
       
+      <Fade duration={5000}>
+
       <img src={HomeImage} alt="Jonathan Costa" className={styles.logo_image}></img>
+      </Fade>
 
       <a href='#about' className={styles.cross}>
         <div className={styles.cross_one}>

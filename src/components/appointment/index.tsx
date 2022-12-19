@@ -1,9 +1,16 @@
 import styles from './Appointment.module.css';
 
+//React Reveal para animações de exibição
+import Fade from 'react-reveal';
+
 export const Appointment = () => {
   return (
     <div id='contact' className={styles.contact}>
-        <h1>Contato</h1>
+        <Fade left>
+            <h1>Contato</h1>
+        </Fade>    
+            
+        <Fade right>
             <div className={styles.appointment}>
                 <div className={styles.appointment_info}>
                     <h2>Envie uma mensagem<span>.</span></h2>
@@ -41,6 +48,7 @@ export const Appointment = () => {
                     <input type="submit" value="Enviar Mensagem" className={styles.btn_send}></input>
                 </form>
             </div>
+            </Fade>    
     </div>
   )
 }
