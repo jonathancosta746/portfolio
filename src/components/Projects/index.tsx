@@ -1,7 +1,7 @@
 import styles from './Projects.module.css'
 
 //React Reveal para animações de exibição
-import Fade from 'react-reveal';
+import {Fade} from 'react-reveal';
 
 import ProjectMarioImg from '../../assets/mariobros_project.png'
 import ProjectRealStateImg from '../../assets/realstate_project.png'

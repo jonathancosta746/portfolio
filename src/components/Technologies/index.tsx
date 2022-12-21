@@ -1,13 +1,17 @@
 import styles from './Technologies.module.css'
 import LogoStyledComponents from '../../assets/styled-components-logo.png'
 
+//React Reveal para animações de exibição
+import {Zoom, Fade} from 'react-reveal';
+
 export const Tecnologies = () => {
   return (
     <div id="technologies" className={styles.technologies} >
-        <h1>Tecnologias</h1>
+        <Fade left>
+          <h1>Tecnologias</h1>
+        </Fade>
+        <Zoom cascade>
           <div className={styles.technologies_content}>
-            <div >
-            </div>
             <div>
               <i className="devicon-react-original colored"></i>
               <p>ReactJs/Native</p>
@@ -19,10 +23,6 @@ export const Tecnologies = () => {
             <div>
               <i className="devicon-javascript-plain colored"></i>
               <p>JavaScript</p>
-            </div>
-            <div>
-              <i className="devicon-nodejs-plain colored"></i>
-              <p>Node.Js</p>
             </div>
             <div>
               <img src={LogoStyledComponents} alt="styled-components-logo" className={styles.technologies_img} />  
@@ -41,6 +41,10 @@ export const Tecnologies = () => {
               <p>MySQL</p>
             </div>
             <div>
+              <i className="devicon-nodejs-plain colored"></i>
+              <p>Node.Js</p>
+            </div>
+            <div>
               <i className="devicon-git-plain colored"></i>
               <p>Git</p>
             </div>      
@@ -53,6 +57,7 @@ export const Tecnologies = () => {
               <p>Figma</p>
             </div>      
           </div>
+        </Zoom >
                         
     </div>
   )

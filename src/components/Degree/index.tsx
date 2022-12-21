@@ -6,12 +6,12 @@ import LogoBradesco from '../../assets/logo-fundacao-bradesco.png';
 import LogoOrangeTech from '../../assets/orangeTech.png';
 
 //React Reveal para animações de exibição
-import Fade from 'react-reveal';
+import {Fade} from 'react-reveal';
 
 export const Degree = () => {
   return (
     <div id="degree" className={styles.degree}>
-      <Fade duration={50000}>
+      <Fade left>
         <h1>Certificados</h1>
       </Fade>
 

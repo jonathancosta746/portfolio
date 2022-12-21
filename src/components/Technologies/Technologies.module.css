@@ -3,12 +3,10 @@
 }
 
 .technologies_content {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     text-align: center;
-    justify-content: center;
-    gap: 3rem;
-    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 i{
