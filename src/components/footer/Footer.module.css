@@ -35,6 +35,7 @@
     color: rgb(219, 219, 219); 
 }
 
-a{
-    color: white;
+.footer_icons a i:hover {
+    color: #00BFD1;
+    transition: .5s;
 }

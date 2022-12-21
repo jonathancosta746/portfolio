@@ -3,7 +3,9 @@
 }
 
 .menu{
+    position: fixed;
     background-color: #4BBECF;
+    z-index: 9;
 }
 
 .icon{
@@ -16,8 +18,8 @@
 }
 
 .hamburguer{
-    position: absolute;
-    top: 70%;
+    position: fixed;
+    top: 5%;
     left: 10%;
     width: 30px;
     height: 6px;
@@ -89,7 +91,7 @@
 
 .icon.iconActive .hamburguer:before{
     top: 0;
-    background: rgb(0, 0, 0);
+    background:   white;
     transform: rotate(135deg);
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
