@@ -20,12 +20,14 @@
 .hamburguer{
     position: fixed;
     top: 5%;
-    left: 10%;
+    left: 5%;
     width: 30px;
     height: 6px;
+    border-radius: 5px;
     background: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
     transition: 0.5s;
+
 }
 
 .hamburguer::before{
@@ -34,6 +36,7 @@
     position: absolute;
     width: 37px;
     height: 6px;
+    border-radius: 5px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
     transition: 0.5s;
@@ -45,9 +48,10 @@
     position: absolute;
     width: 37px;
     height: 6px;
+    border-radius: 5px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
-    transition: 0.5s;
+    transition: 0.5s;  
 }
 
 .list{
