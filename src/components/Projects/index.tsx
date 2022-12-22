@@ -23,12 +23,11 @@ import { FreeMode, Pagination } from "swiper";
 export const Projects = () => {
   return (
     <div className={styles.project} id="portfolio">
-        <div className={styles.project_items}>
+        <Fade left>
+            <h1>Projetos</h1>
+        </Fade>
 
-            <Fade left>
-                <h1>Projetos</h1>
-            </Fade>
-
+    <div className={styles.project_item}>      
             <Fade right>
             <div>
                 <Swiper
