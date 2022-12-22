@@ -1,5 +1,6 @@
 import styles from './Technologies.module.css'
 import LogoStyledComponents from '../../assets/styled-components-logo.png'
+import LogoAPIRestFull from '../../assets/Logo_API_RESTFUL.png'
 
 //React Reveal para animações de exibição
 import {Zoom, Fade} from 'react-reveal';
@@ -43,6 +44,10 @@ export const Tecnologies = () => {
             <div>
               <i className="devicon-nodejs-plain colored"></i>
               <p>Node.Js</p>
+            </div>
+            <div>
+              <img src={LogoAPIRestFull} alt="API Restful-logo" className={styles.technologies_img} /> 
+              <p>API RESTful</p>
             </div>
             <div>
               <i className="devicon-git-plain colored"></i>
