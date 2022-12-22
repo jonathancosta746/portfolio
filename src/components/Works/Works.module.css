@@ -12,9 +12,10 @@
 
 .work_image{
     grid-area: work_image;
-    text-align: right; 
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
 }
 
 .work_img{
@@ -24,6 +25,9 @@
 
 .work_detail{
     grid-area: work_details;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
     font-size: 1rem;
 }

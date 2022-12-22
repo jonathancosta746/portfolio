@@ -13,6 +13,7 @@
 .degree_image{
     grid-area: degree_image;
     text-align: right; 
+    
 }
 
 .degree_img{
@@ -22,9 +23,11 @@
 
 .degree_detail{
     grid-area: degree_details;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
     font-size: .7rem;
-    margin: auto;
 }
 
 
