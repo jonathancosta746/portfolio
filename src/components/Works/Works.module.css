@@ -14,8 +14,9 @@
     grid-area: work_image;
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
+    margin-left: auto;
+
 }
 
 .work_img{
