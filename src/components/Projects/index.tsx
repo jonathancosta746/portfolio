@@ -68,7 +68,7 @@ export const Projects = () => {
                                     <img src={ProjectRealStateImg} alt="Logo do Projeto" className={styles.project_img} />
                                     <div className={styles.project_data}>
                                         <h2 className={styles.project_title}>
-                                            LandingPage para Imobiliaria.
+                                            Imobiliaria
                                         </h2>
                                         <h3 className={styles.project_description}>
                                             LandigPage criada para Imobiliaria ou Corretores.
@@ -86,7 +86,7 @@ export const Projects = () => {
                                     <img src={ProjectNetflixCloneImg} alt="Logo do Projeto" className={styles.project_img} />
                                     <div className={styles.project_data}>
                                         <h2 className={styles.project_title}>
-                                            Clone NetFlix.
+                                            NetFlix
                                         </h2>
                                         <h3 className={styles.project_description}>
                                             Clone da HomePage de usuário da Netflix.
@@ -107,7 +107,7 @@ export const Projects = () => {
                                             Secret Word Game
                                         </h2>
                                         <h3 className={styles.project_description}>
-                                            Clone da HomePage de usuário da Netflix.
+                                            Jogo criado em React
                                         </h3>
                                         <div className={styles.project_btn}>
                                             <button className={styles.btn_github}>GitHub</button>
@@ -122,10 +122,10 @@ export const Projects = () => {
                                     <img src={ProjectHospitalLandingPageImg} alt="Logo do Projeto" className={styles.project_img} />
                                     <div className={styles.project_data}>
                                         <h2 className={styles.project_title}>
-                                            Clone NetFlix.
+                                            Hospital Site
                                         </h2>
                                         <h3 className={styles.project_description}>
-                                            Clone da HomePage de usuário da Netflix.
+                                            Landing Page para Clinicas e Hospitais
                                         </h3>
                                         <div className={styles.project_btn}>
                                             <button className={styles.btn_github}>GitHub</button>

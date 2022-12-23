@@ -28,15 +28,15 @@
   
 .project_title{
     font-size: 1.2rem;
+    font-weight: 600;
     margin-bottom: .25rem;
-    padding-top: .4em;
-    word-spacing: -0.1rem;
 }
   
 .project_description{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
     word-spacing: -0.1rem;
+    line-height: 140%;
 }
 
 /*Botoes*/
