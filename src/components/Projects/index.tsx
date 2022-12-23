@@ -31,7 +31,7 @@ export const Projects = () => {
             <Fade right>
             <div>
                 <Swiper
-                    slidesPerView={1.2}
+                    slidesPerView={1.12}
                     spaceBetween= {15}
                     pagination={{clickable: true,}}
                     modules={[FreeMode, Pagination]}
@@ -45,10 +45,10 @@ export const Projects = () => {
                                     <img src={ProjectMarioImg} alt="Logo do Projeto" className={styles.project_img} />
                                     <div className={styles.project_data}>
                                         <h2 className={styles.project_title}>
-                                            Super Mario JavaScript Game
+                                            Super Mario
                                         </h2>
                                         <h3 className={styles.project_description}>
-                                            Jogo criado utilizando JavaScript e DOM para manupulação de classes do CSS
+                                            Jogo criado utilizando JavaScript e DOM para manupulação de classes do CSS.
                                         </h3>
                                         <div className={styles.project_btn}>
                                             <a href="/#">
