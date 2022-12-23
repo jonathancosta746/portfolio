@@ -24,15 +24,15 @@ export const Projects = () => {
   return (
     <div className={styles.project} id="portfolio">
         <Fade left>
-            <h1>Projetos</h1>
+            <h1>Portfolio</h1>
         </Fade>
 
     <div className={styles.project_item}>      
             <Fade right>
             <div>
                 <Swiper
-                    slidesPerView={1}
-                    spaceBetween= {32}
+                    slidesPerView={1.2}
+                    spaceBetween= {15}
                     pagination={{clickable: true,}}
                     modules={[FreeMode, Pagination]}
                     
@@ -51,8 +51,13 @@ export const Projects = () => {
                                             Jogo criado utilizando JavaScript e DOM para manupulação de classes do CSS
                                         </h3>
                                         <div className={styles.project_btn}>
-                                            <button className={styles.btn_github}>GitHub</button>
-                                            <button className={styles.btn_web}>Acesse</button>
+                                            <a href="/#">
+                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </article>

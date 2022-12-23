@@ -68,10 +68,7 @@ button{
   background-color: #00BFD1!important;
 }
 
-.swiper-free-mode>.swiper-wrapper
-.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-  bottom: 10px;
-  left: 0;
-  width: 100%;
-  padding-bottom: -50px;
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: .8rem;
+  height: .8rem;
 }
