@@ -1,10 +1,10 @@
-import {Call} from '../../components/Header'
+import {Header} from '../../components/Header'
 
 
 export const Home = () => {
   return (
     <div>
-      <Call />
+    <Header/>
     </div>
   )
 }

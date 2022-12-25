@@ -20,7 +20,7 @@ import "swiper/css/pagination";
 // import required modules
 import { FreeMode, Pagination } from "swiper";
 
-export const Projects = () => {
+export const Portfolio = () => {
   return (
     <div className={styles.project} id="portfolio">
         <Fade left>

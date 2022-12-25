@@ -7,7 +7,7 @@ import HomeVideo from '../../assets/HomeVideo.mp4'
 import {Fade, Zoom} from 'react-reveal';
 
 
-export const Call = () => {
+export const Header = () => {
   return (
     <header className={styles.call}>
       <video 
