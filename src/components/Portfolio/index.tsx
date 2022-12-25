@@ -58,10 +58,6 @@ export const Portfolio = () => {
                                             <a href="/#">
                                                 <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
                                             </a>
-
-                                            <a href="/#">
-                                                <button className={styles.btn_info}><i className='bx bx-info-circle'></i>Info</button>
-                                            </a>
                                         </div>
                                     </div>
                                 </article>
@@ -84,10 +80,6 @@ export const Portfolio = () => {
 
                                             <a href="/#">
                                                 <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
-                                            </a>
-
-                                            <a href="/#">
-                                                <button className={styles.btn_info}><i className='bx bx-info-circle'></i>Info</button>
                                             </a>
                                         </div>
                                     </div>
@@ -112,10 +104,6 @@ export const Portfolio = () => {
                                             <a href="/#">
                                                 <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
                                             </a>
-
-                                            <a href="/#">
-                                                <button className={styles.btn_info}><i className='bx bx-info-circle'></i>Info</button>
-                                            </a>
                                         </div>
                                     </div>
                                 </article>
@@ -139,10 +127,6 @@ export const Portfolio = () => {
                                             <a href="/#">
                                                 <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
                                             </a>
-
-                                            <a href="/#">
-                                                <button className={styles.btn_info}><i className='bx bx-info-circle'></i>Info</button>
-                                            </a>
                                         </div>
                                     </div>
                                 </article>
@@ -165,10 +149,6 @@ export const Portfolio = () => {
 
                                             <a href="/#">
                                                 <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
-                                            </a>
-
-                                            <a href="/#">
-                                                <button className={styles.btn_info}><i className='bx bx-info-circle'></i>Info</button>
                                             </a>
                                         </div>
                                     </div>

@@ -30,6 +30,7 @@
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: .25rem;
+    letter-spacing: -0.05rem;
 }
   
 .project_description{
@@ -44,8 +45,6 @@
     position: absolute;
     display: flex;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
     margin-bottom: 0.5rem;
     gap: .2rem;
 }
@@ -55,8 +54,8 @@
     align-items: center;
     justify-content: center;
     gap: .3rem;
-    width: 6rem;
-    height: 2.4rem;
+    width: 6.5rem;
+    height: 2.7rem;
     color: #000000;
     font-size: 1rem;
     font-weight: 400;
