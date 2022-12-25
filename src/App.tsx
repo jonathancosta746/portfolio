@@ -6,7 +6,7 @@ import { Works } from './components/Works';
 import { Tecnologies } from './components/Technologies';
 import { Degree } from './components/Degree';
 import { Contact } from './components/Contact';
-import { Footer } from './components/Footerr';
+import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 
 
