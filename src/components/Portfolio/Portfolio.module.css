@@ -44,19 +44,21 @@
     position: absolute;
     display: flex;
     bottom: 0;
-    margin: 0rem 0rem 0.5rem 0rem;
-    gap: .6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0.5rem;
+    gap: .2rem;
 }
 
-.btn_github, .btn_web{
+.btn_github, .btn_web, .btn_info{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: .3rem;
-    width: 7rem;
+    width: 6rem;
     height: 2.4rem;
     color: #000000;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
     transition: .8s ease;
 }
@@ -70,23 +72,20 @@
     border: 1px solid #00BFD1;
 }
 
-.btn_github{
-    background-color: #ffffff;
-}
-.btn_github:hover{
+.btn_github:hover, .btn_info:hover {
     background-color: #000000;
     color: #ffffff;
     border: 1px solid #ffffff;
 }
 
 /*icones dos botoes*/
-.btn_web > i, .btn_github > i {
-    font-size: 1.7rem;
+.btn_web > i, .btn_github > i, .btn_info > i {
+    font-size: 1.6rem;
     color: #000000;
     transition: .8s ease;
 }
 
-.btn_github:hover > i{
+.btn_github:hover > i, .btn_info:hover > i {
     color: #ffffff;
 }
 .btn_web:hover > i{

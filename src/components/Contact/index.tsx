@@ -1,4 +1,4 @@
-import styles from './Appointment.module.css';
+import styles from './Contact.module.css';
 
 //React Reveal para animações de exibição
 import Fade from 'react-reveal';

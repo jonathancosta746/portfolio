@@ -9,7 +9,7 @@
 }
 
 .icon{
-    position: absolute;
+    position: fixed;
     z-index: 10;
     left: 1%;
     width: 10rem;
@@ -18,8 +18,8 @@
 }
 
 .hamburguer{
-    position: fixed;
-    top: 5%;
+    position: absolute;
+    top: 2rem;
     left: 5%;
     width: 30px;
     height: 6px;
@@ -82,12 +82,14 @@
 }
 
 .icon.iconActive .hamburguer{
+    top: 2rem;
     background: transparent;
     box-shadow:  0 2px 5px transparent; 
 }
 
 .icon.iconActive .hamburguer:after{
-    top: 0;
+    
+    top:0;
     background: rgb(0, 0, 0);
     transform: rotate(225deg);
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);

@@ -11,7 +11,7 @@ export const NavBar = () => {
   }
 
   return (
-    <div className={styles.navBar}>
+    <nav className={styles.navBar}>
       <div className={active ? `${styles.icon} ${styles.iconActive}` : `${styles.icon}`} onClick={ToggleMode}>
       <Fade duration={2000}>
         <div className={`${styles.hamburguer} ${styles.hamburguer_icon}`}></div>
@@ -38,6 +38,6 @@ export const NavBar = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   )
 }

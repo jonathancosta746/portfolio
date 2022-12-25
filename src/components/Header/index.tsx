@@ -9,7 +9,7 @@ import {Fade, Zoom} from 'react-reveal';
 
 export const Call = () => {
   return (
-    <div className={styles.call}>
+    <header className={styles.call}>
       <video 
         autoPlay={true} 
         loop={true}
@@ -35,6 +35,6 @@ export const Call = () => {
         </a>
       </Zoom>
       
-    </div>
+    </header>
   )
 }

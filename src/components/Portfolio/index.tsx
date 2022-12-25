@@ -1,4 +1,4 @@
-import styles from './Projects.module.css'
+import styles from './Portfolio.module.css'
 
 //React Reveal para animações de exibição
 import {Fade} from 'react-reveal';
@@ -52,11 +52,15 @@ export const Projects = () => {
                                         </h3>
                                         <div className={styles.project_btn}>
                                             <a href="/#">
+                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                            </a>
+
+                                            <a href="/#">
                                                 <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
                                             </a>
 
                                             <a href="/#">
-                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                                <button className={styles.btn_info}><i className='bx bx-info-circle'></i>Info</button>
                                             </a>
                                         </div>
                                     </div>
@@ -74,8 +78,17 @@ export const Projects = () => {
                                             LandigPage criada para Imobiliaria ou Corretores.
                                         </h3>
                                         <div className={styles.project_btn}>
-                                            <button className={styles.btn_github}>GitHub</button>
-                                            <button className={styles.btn_web}>Acesse</button>
+                                            <a href="/#">
+                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_info}><i className='bx bx-info-circle'></i>Info</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </article>
@@ -92,8 +105,17 @@ export const Projects = () => {
                                             Clone da HomePage de usuário da Netflix.
                                         </h3>
                                         <div className={styles.project_btn}>
-                                            <button className={styles.btn_github}>GitHub</button>
-                                            <button className={styles.btn_web}>Acesse</button>
+                                            <a href="/#">
+                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_info}><i className='bx bx-info-circle'></i>Info</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </article>
@@ -110,8 +132,17 @@ export const Projects = () => {
                                             Jogo criado em React
                                         </h3>
                                         <div className={styles.project_btn}>
-                                            <button className={styles.btn_github}>GitHub</button>
-                                            <button className={styles.btn_web}>Acesse</button>
+                                            <a href="/#">
+                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_info}><i className='bx bx-info-circle'></i>Info</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </article>
@@ -128,8 +159,17 @@ export const Projects = () => {
                                             Landing Page para Clinicas e Hospitais
                                         </h3>
                                         <div className={styles.project_btn}>
-                                            <button className={styles.btn_github}>GitHub</button>
-                                            <button className={styles.btn_web}>Acesse</button>
+                                            <a href="/#">
+                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_info}><i className='bx bx-info-circle'></i>Info</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </article>
