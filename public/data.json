@@ -57,7 +57,7 @@
             "static_img": "https://user-images.githubusercontent.com/26524921/187376974-c8d76a1d-7cf6-4146-a2de-c4783eb7d096.png",
             "short_description": "Gerenciador de tarefas criado como SPA (single page aplication) utilizando React no seu front-end e FireBase em seu back-end.",
             "full_description": "Gerenciador de tarefas criado como SPA (single page aplication) utilizando React no seu front-end e o banco de dados FireBase em seu back-end. O aplicação possui campo de login e cadastro de usuário onde cada usuário pode registrar suas tarefas salvando-as no bando de dados na nuvem. No projeto foram utilizados React Router para criação das rotas públicas e privadas.",
-            "link_web":"https://gerenciadortarefas-react-js.netlify.app/login",
+            "link_web":"https://gerenciadortarefas-react-js.netlify.app/",
             "link_github": "https://github.com/jonathancosta746/Gerenciador-de-Tarefas-React-Js",
             "link_youtube": ""
         },

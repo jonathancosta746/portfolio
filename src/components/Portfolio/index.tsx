@@ -64,11 +64,11 @@ export const Portfolio = () => {
                                                             {projetos.short_description}
                                                         </h3>
                                                         <div className={styles.project_btn}>
-                                                            <a href="/#">
+                                                            <a href={projetos.link_web} target="_blank" rel="noopener noreferrer">
                                                                 <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
                                                             </a>
 
-                                                            <a href="/#">
+                                                            <a href={projetos.link_github} target="_blank" rel="noopener noreferrer">
                                                                 <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
                                                             </a>
                                                         </div>
