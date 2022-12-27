@@ -1,0 +1,94 @@
+.project{
+    padding: 0rem 1rem 0rem 1rem; 
+}
+
+.project > h1{
+    border: none;
+}
+
+.project_card{
+    height: 450px;
+    padding: 0.6rem .6rem .6rem 0.6rem;
+    border-radius: .8rem;
+    transition: .4s;
+    background-color: #1E1D2A;
+    border: solid 1px #3c3752;
+}
+
+.project_card:hover{
+    box-shadow: 0 12px 16px hsla(228, 66%, 45%, .1);
+}
+  
+.project_img{
+    border-radius: .4rem;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+  
+.project_title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: .25rem;
+    letter-spacing: -0.05rem;
+}
+  
+.project_description{
+    font-size: 1rem;
+    font-weight: 400;
+    word-spacing: -0.1rem;
+    line-height: 140%;
+}
+
+/*Botoes*/
+.project_btn{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    margin-bottom: 0.5rem;
+    gap: .2rem;
+}
+
+.btn_github, .btn_web, .btn_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    width: 6.5rem;
+    height: 2.7rem;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: .8s ease;
+}
+
+.btn_web{
+    background-color: #00BFD1;
+}
+.btn_web:hover{
+    background-color: #000000;
+    color: #00BFD1;
+    border: 1px solid #00BFD1;
+}
+
+.btn_github:hover, .btn_info:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/*icones dos botoes*/
+.btn_web > i, .btn_github > i, .btn_info > i {
+    font-size: 1.6rem;
+    color: #000000;
+    transition: .8s ease;
+}
+
+.btn_github:hover > i, .btn_info:hover > i {
+    color: #ffffff;
+}
+.btn_web:hover > i{
+    color: #00BFD1;
+}
+
+

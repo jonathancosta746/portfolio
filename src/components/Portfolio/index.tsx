@@ -1,7 +1,7 @@
-import styles from './Projects.module.css'
+import styles from './Portfolio.module.css'
 
 //React Reveal para animações de exibição
-import Fade from 'react-reveal';
+import {Fade} from 'react-reveal';
 
 import ProjectMarioImg from '../../assets/mariobros_project.png'
 import ProjectRealStateImg from '../../assets/realstate_project.png'
@@ -20,20 +20,19 @@ import "swiper/css/pagination";
 // import required modules
 import { FreeMode, Pagination } from "swiper";
 
-export const Projects = () => {
+export const Portfolio = () => {
   return (
     <div className={styles.project} id="portfolio">
-        <div className={styles.project_items}>
+        <Fade left>
+            <h1>Portfolio</h1>
+        </Fade>
 
-            <Fade left>
-                <h1>Projetos</h1>
-            </Fade>
-
+    <div className={styles.project_item}>      
             <Fade right>
             <div>
                 <Swiper
-                    slidesPerView={1}
-                    spaceBetween= {32}
+                    slidesPerView={1.12}
+                    spaceBetween= {15}
                     pagination={{clickable: true,}}
                     modules={[FreeMode, Pagination]}
                     
@@ -46,14 +45,19 @@ export const Projects = () => {
                                     <img src={ProjectMarioImg} alt="Logo do Projeto" className={styles.project_img} />
                                     <div className={styles.project_data}>
                                         <h2 className={styles.project_title}>
-                                            Super Mario JavaScript Game
+                                            Super Mario
                                         </h2>
                                         <h3 className={styles.project_description}>
-                                            Jogo criado utilizando JavaScript e DOM para manupulação de classes do CSS
+                                            Jogo criado utilizando JavaScript e DOM para manupulação de classes do CSS.
                                         </h3>
                                         <div className={styles.project_btn}>
-                                            <button className={styles.btn_github}>GitHub</button>
-                                            <button className={styles.btn_web}>Acesse</button>
+                                            <a href="/#">
+                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </article>
@@ -64,14 +68,19 @@ export const Projects = () => {
                                     <img src={ProjectRealStateImg} alt="Logo do Projeto" className={styles.project_img} />
                                     <div className={styles.project_data}>
                                         <h2 className={styles.project_title}>
-                                            LandingPage para Imobiliaria.
+                                            Imobiliaria
                                         </h2>
                                         <h3 className={styles.project_description}>
                                             LandigPage criada para Imobiliaria ou Corretores.
                                         </h3>
                                         <div className={styles.project_btn}>
-                                            <button className={styles.btn_github}>GitHub</button>
-                                            <button className={styles.btn_web}>Acesse</button>
+                                            <a href="/#">
+                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </article>
@@ -82,14 +91,19 @@ export const Projects = () => {
                                     <img src={ProjectNetflixCloneImg} alt="Logo do Projeto" className={styles.project_img} />
                                     <div className={styles.project_data}>
                                         <h2 className={styles.project_title}>
-                                            Clone NetFlix.
+                                            NetFlix
                                         </h2>
                                         <h3 className={styles.project_description}>
                                             Clone da HomePage de usuário da Netflix.
                                         </h3>
                                         <div className={styles.project_btn}>
-                                            <button className={styles.btn_github}>GitHub</button>
-                                            <button className={styles.btn_web}>Acesse</button>
+                                            <a href="/#">
+                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </article>
@@ -103,11 +117,16 @@ export const Projects = () => {
                                             Secret Word Game
                                         </h2>
                                         <h3 className={styles.project_description}>
-                                            Clone da HomePage de usuário da Netflix.
+                                            Jogo criado em React
                                         </h3>
                                         <div className={styles.project_btn}>
-                                            <button className={styles.btn_github}>GitHub</button>
-                                            <button className={styles.btn_web}>Acesse</button>
+                                            <a href="/#">
+                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </article>
@@ -118,14 +137,19 @@ export const Projects = () => {
                                     <img src={ProjectHospitalLandingPageImg} alt="Logo do Projeto" className={styles.project_img} />
                                     <div className={styles.project_data}>
                                         <h2 className={styles.project_title}>
-                                            Clone NetFlix.
+                                            Hospital Site
                                         </h2>
                                         <h3 className={styles.project_description}>
-                                            Clone da HomePage de usuário da Netflix.
+                                            Landing Page para Clinicas e Hospitais
                                         </h3>
                                         <div className={styles.project_btn}>
-                                            <button className={styles.btn_github}>GitHub</button>
-                                            <button className={styles.btn_web}>Acesse</button>
+                                            <a href="/#">
+                                                <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
+                                            </a>
+
+                                            <a href="/#">
+                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </article>

@@ -30,11 +30,12 @@
 
 .footer_right{
     text-align: center;
-    padding: 2rem .5rem 4rem .5rem;
+    padding: 2rem .5rem 2rem .5rem;
     margin: 0;
     color: rgb(219, 219, 219); 
 }
 
-a{
-    color: white;
+.footer_icons a i:hover {
+    color: #00BFD1;
+    transition: .5s;
 }

@@ -3,11 +3,13 @@
 }
 
 .menu{
+    position: fixed;
     background-color: #4BBECF;
+    z-index: 9;
 }
 
 .icon{
-    position: absolute;
+    position: fixed;
     z-index: 10;
     left: 1%;
     width: 10rem;
@@ -17,13 +19,15 @@
 
 .hamburguer{
     position: absolute;
-    top: 70%;
-    left: 10%;
+    top: 2rem;
+    left: 5%;
     width: 30px;
     height: 6px;
+    border-radius: 5px;
     background: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
     transition: 0.5s;
+
 }
 
 .hamburguer::before{
@@ -32,6 +36,7 @@
     position: absolute;
     width: 37px;
     height: 6px;
+    border-radius: 5px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
     transition: 0.5s;
@@ -43,9 +48,10 @@
     position: absolute;
     width: 37px;
     height: 6px;
+    border-radius: 5px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
-    transition: 0.5s;
+    transition: 0.5s;  
 }
 
 .list{
@@ -76,12 +82,14 @@
 }
 
 .icon.iconActive .hamburguer{
+    top: 2rem;
     background: transparent;
     box-shadow:  0 2px 5px transparent; 
 }
 
 .icon.iconActive .hamburguer:after{
-    top: 0;
+    
+    top:0;
     background: rgb(0, 0, 0);
     transform: rotate(225deg);
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
@@ -89,14 +97,14 @@
 
 .icon.iconActive .hamburguer:before{
     top: 0;
-    background: rgb(0, 0, 0);
+    background:   white;
     transform: rotate(135deg);
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .menu.menuOpen{
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
 }
 
 .menu.menuClose{

@@ -27,10 +27,9 @@ video {
     position: absolute;
     display: block;
     margin: auto;
-    bottom: 0rem;
+    bottom: 5.5rem;
     left: 0;
     right: 0;
-    
 }
 
 .cross span{

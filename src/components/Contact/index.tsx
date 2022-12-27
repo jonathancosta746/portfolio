@@ -1,9 +1,9 @@
-import styles from './Appointment.module.css';
+import styles from './Contact.module.css';
 
 //React Reveal para animações de exibição
 import Fade from 'react-reveal';
 
-export const Appointment = () => {
+export const Contact = () => {
   return (
     <div id='contact' className={styles.contact}>
         <Fade left>

@@ -4,12 +4,12 @@ import HomeImage from '../../assets/HomeImage.png'
 import HomeVideo from '../../assets/HomeVideo.mp4'
 
 //React Reveal para animações de exibição
-import {Fade} from 'react-reveal';
+import {Fade, Zoom} from 'react-reveal';
 
 
-export const Call = () => {
+export const Header = () => {
   return (
-    <div className={styles.call}>
+    <header className={styles.call}>
       <video 
         autoPlay={true} 
         loop={true}
@@ -24,15 +24,17 @@ export const Call = () => {
        <img src={HomeImage} alt="Jonathan Costa" className={styles.logo_image}></img>
       </Fade>
 
-      <a href='#about' className={styles.cross}>
-        <div className={styles.cross_one}>
-          <span className="material-symbols-outlined">expand_more</span>
-        </div>
-        <div className={styles.cross_two}>
-          <span className="material-symbols-outlined">expand_more</span>
-        </div>        
-      </a>
+      <Zoom duration={2000}>
+        <a href='#about' className={styles.cross}>
+          <div className={styles.cross_one}>
+            <span className="material-symbols-outlined">expand_more</span>
+          </div>
+          <div className={styles.cross_two}>
+            <span className="material-symbols-outlined">expand_more</span>
+          </div>        
+        </a>
+      </Zoom>
       
-    </div>
+    </header>
   )
 }

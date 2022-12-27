@@ -1,14 +1,13 @@
-import React from 'react';
 
 import { NavBar } from './components/NavBar';
-import { Projects } from './components/Projects';
+import { Portfolio } from './components/Portfolio';
 import { About } from './components/About';
 import { Works } from './components/Works';
 import { Tecnologies } from './components/Technologies';
 import { Degree } from './components/Degree';
-import { Appointment } from './components/appointment';
-import { Footer } from './components/footer';
-import { Call } from './components/Call';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
 
 
 
@@ -16,13 +15,13 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Call />
-      <Projects />
+      <Header />
+      <Portfolio />
       <About />
       <Works />
       <Tecnologies />
       <Degree />
-      <Appointment />
+      <Contact />
       <Footer />
     </div>
   );

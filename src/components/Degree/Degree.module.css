@@ -1,13 +1,13 @@
 .degree{
     padding: 2rem 2rem 2rem 2rem;
 }
-    
 
 .degree_item{
     display: grid;
     grid-template-areas:
     "degree_image degree_details degree_details";
     grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 1rem;
 }
 
 .degree_image{
@@ -22,10 +22,11 @@
 
 .degree_detail{
     grid-area: degree_details;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
     font-size: .7rem;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 
