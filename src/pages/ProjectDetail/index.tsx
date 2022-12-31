@@ -7,7 +7,6 @@ import { useContext } from "react";
 import { DataContext } from "../../components/ContextData/DataContext";
 
 import { Portfolio } from '../../components/Portfolio';
-import YouTube, { YouTubeProps } from 'react-youtube';
 
 
 type Project = {
@@ -32,9 +31,11 @@ export const ProjectDetail = () => {
   let static_img = project[id].static_img;
   
   let full_description = project[id].full_description;
+  /*
   let link_web = project[id].link_web;
   let link_github = project[id].link_github;
   let link_youtube = project[id].link_youtube;
+  */
  
   return (
     <div className={styles.project_detail}>
