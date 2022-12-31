@@ -13,21 +13,30 @@ import "swiper/css/pagination";
 
 // import required modules
 import { FreeMode, Pagination } from "swiper";
-import { useFetch } from '../../hooks/useFetch';
+
+//hooks
+import { useContext } from "react";
+import { DataContext } from "../../components/ContextData/DataContext";
+
+//React Router Dom
+import { Link } from "react-router-dom"
+
+
+type Project = {
+    id: string;
+    name: string;
+    static_img: string;
+    short_description: string;
+    full_description: string;
+    link_web:string;
+    link_github: string;
+    link_youtube: string;
+}
 
 export const Portfolio = () => {
-    type Projects = {
-        id: string;
-        name: string;
-        static_img: string;
-        short_description: string;
-        full_description: string;
-        link_web:string;
-        link_github: string;
-        link_youtube: string;
-    }
+   
 
-    const {data} = useFetch<Projects[]>('./data.json')
+  const projects = useContext<Project[]>(DataContext)
 
   return (
     <div className={styles.project} id="portfolio">
@@ -50,7 +59,7 @@ export const Portfolio = () => {
                         <div>
                             <div className="swiper-wrapper">
                             <ul>
-                                {data?.map(projetos => {
+                                {projects?.map(projetos => {
                                     return (
                                         <li key={projetos.id}>
                                             <SwiperSlide>
@@ -68,9 +77,9 @@ export const Portfolio = () => {
                                                                 <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
                                                             </a>
 
-                                                            <a href={projetos.link_github} target="_blank" rel="noopener noreferrer">
-                                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>GitHub</button>
-                                                            </a>
+                                                            <Link to={`/project/${projetos.id}/info`}>
+                                                                <button className={styles.btn_github}><i className='bx bxl-github'></i>Info</button>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                 </article>

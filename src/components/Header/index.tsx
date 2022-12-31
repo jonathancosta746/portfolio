@@ -25,7 +25,7 @@ export const Header = () => {
       </Fade>
 
       <Zoom duration={2000}>
-        <a href='#about' className={styles.cross}>
+        <a href='#portfolio' className={styles.cross}>
           <div className={styles.cross_one}>
             <span className="material-symbols-outlined">expand_more</span>
           </div>

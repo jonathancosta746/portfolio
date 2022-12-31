@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export function useFetch<T = unknown>(json:any) {
+export function useFetchProjects<T = unknown>() {
     const [data, setData] = useState<T | null>(null)
 
     useEffect(() => {

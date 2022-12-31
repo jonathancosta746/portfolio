@@ -24,7 +24,7 @@ export const Degree = () => {
 
         <Fade right>
           <div className={styles.degree_detail}>
-            <h2>BootCamp Orange Tech - JavaScript, TypeScript, e React.Js</h2>
+            <h2>BootCamp Orange Tech+ (JavaScript, TypeScript, e React.Js)</h2>
             <p>Banco Inter</p>
           </div>
         </Fade> 
