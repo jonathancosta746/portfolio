@@ -14,9 +14,7 @@ export const data = [
                 "name": "Imobiliaria Landing Page",
                 "static_img": "https://user-images.githubusercontent.com/26524921/181022440-6d4ca0ff-d7cc-4501-9bd2-214917d4c2a7.png",
                 "short_description": "LandingPage criada para Imobiliária ou Corretores de Imóveis com formulario de contato",
-                "full_description": "Landing Page criada para uma corretores de imóveis ou imobiliárias, onde há integração com a biblioteca SwiperJS para criação de slides na sessão onde é exibido os principais imóveis da carteira da imobiliaria ou do corretor, e integração com a biblioteca do FormSpree fazendo com que seja possível os clientes enviarem uma solicitação de contato onde será recebida no email da corretora e a mesma poderá encimnhar para que seus corretores entrem em contato com o cliente.
-
-",
+                "full_description": "Landing Page criada para uma corretores de imóveis ou imobiliárias, onde há integração com a biblioteca SwiperJS para criação de slides na sessão onde é exibido os principais imóveis da carteira da imobiliaria ou do corretor, e integração com a biblioteca do FormSpree fazendo com que seja possível os clientes enviarem uma solicitação de contato onde será recebida no email da corretora e a mesma poderá encaminhar para que seus corretores entrem em contato com o cliente.",
                 "link_web":"https://jonathancosta746.github.io/Imobiliaria-Landing-Page/",
                 "link_github": "https://github.com/jonathancosta746/Imobiliaria-Landing-Page",
                 "link_youtube": "https://www.youtube.com/@JonathanCosta746/videos",
@@ -29,7 +27,7 @@ export const data = [
                 "full_description": "Clone da HomePage de usuário da Netflix criado com React.JS consumindo a API do TMDB para busca de filme principal da HomePage e filmes das listas de gêneros.",
                 "link_web":"https://netflix-clone-react-jsc.netlify.app/",
                 "link_github": "https://github.com/jonathancosta746/Netflix-Clone-React-Js",
-                "link_youtube": "https://www.youtube.com/watch?v=A6O_-JCGnmA"
+                "link_youtube": "https://www.youtube.com/watch?v=A6O_-JCGnmA",
             },
             {
                 "id": "3",
