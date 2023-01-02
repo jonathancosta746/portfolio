@@ -50,7 +50,7 @@
     gap: .2rem;
 }
 
-.btn_github, .btn_web, .btn_info{
+.btn_github, .btn_web{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,6 +58,7 @@
     width: 6.5rem;
     height: 2.7rem;
     color: #000000;
+    background-color: rgb(221, 221, 221);
     font-size: 1rem;
     font-weight: 400;
     transition: .8s ease;

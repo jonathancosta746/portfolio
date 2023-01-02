@@ -37,7 +37,7 @@ video {
 .cross span{
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(241, 241, 241);
 }
 
 .cross_one {
