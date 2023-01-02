@@ -1,5 +1,6 @@
 .about{
     padding: 2rem 2rem 2rem 2rem;
+    overflow: hidden;
 }
 
 .about > p {

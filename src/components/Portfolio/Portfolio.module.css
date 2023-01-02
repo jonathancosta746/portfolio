@@ -1,5 +1,6 @@
 .project{
     padding: 0rem 1rem 0rem 1rem; 
+    overflow: hidden;
 }
 
 .project > h1{

@@ -1,7 +1,8 @@
-.call{
+header{
     position: relative;
     width: 100vw;
     height: 100vh;
+    max-width:100%;
 }
 
 .logo_image {
@@ -20,6 +21,7 @@ video {
     position: absolute;
     width: 100vw;
     height: 100vh;
+    max-width:100%;
     object-fit: cover;   
 }
 
