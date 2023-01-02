@@ -101,3 +101,50 @@ select{
   background-color: rgb(218, 15, 15);
 }
 
+
+/*=============== BREAKPOINTS ===============*/
+/* For hd devices */
+@media screen and (min-width: 1250px) {
+  .contact{
+      padding: 0rem 8rem 4rem 8rem; 
+  }
+}
+
+/* For full hd devices */
+@media screen and (min-width: 1900px) {
+  .contact{
+    padding: 0rem 20rem 4rem 20rem;  
+  }
+
+  .appointment{
+    font-size: 1.3rem;
+  }
+
+  input, 
+  textarea, 
+  select{
+    font-size: 1.3rem;
+  }
+}
+
+/* For 2k and 4k devices */
+@media screen and (min-width: 3000px) {
+  .contact{
+    padding: 0rem 45rem 10rem 45rem;  
+  }
+
+  .appointment{
+    font-size: 2.7rem;
+  }
+
+  .appointment_form {
+    border: solid 4px #2b273b;
+    box-shadow: rgb(0 0 0 / 50%) 0px 60px 150px;
+  }
+
+  input, 
+  textarea, 
+  select{
+    font-size: 2.7rem;
+  }
+}

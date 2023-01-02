@@ -7,6 +7,7 @@ import { useContext } from "react";
 import { DataContext } from "../../components/ContextData/DataContext";
 
 import { Portfolio } from '../../components/Portfolio';
+import { Footer } from '../../components/Footer';
 
 
 type Project = {
@@ -46,6 +47,7 @@ export const ProjectDetail = () => {
       <p>{full_description}</p>
     
       <Portfolio />
+      <Footer />
     </div>
   )
 }
