@@ -91,4 +91,54 @@
     color: #00BFD1;
 }
 
+/*=============== BREAKPOINTS ===============*/
+/* For hd devices */
+@media screen and (min-width: 1200px) {
+    .project{
+        padding: 0rem 8rem 0rem 8rem; 
+    }
 
+    .project_card{
+        height: 450px;
+    }
+
+    .project_img{
+        height: 150px;
+    }
+}
+
+/* For Full HD devices */
+@media screen and (min-width: 1900px) {
+    .project_card{
+        height: 470px;
+    }
+
+    .project_img{
+        height: 190px;
+    }
+}
+  
+/* For 2k and 4k devices */
+@media screen and (min-width: 3000px) {
+    .project{
+        padding: 0rem 20rem 0rem 20rem; 
+    }
+  
+    .project_card{
+        height: 950px;
+    }
+
+    .project_img{
+        height: 370px;
+    }
+
+    .project_btn{
+        zoom: 1.7;
+    }
+
+    .project_title,      
+    .project_description{
+        font-size: 2.5rem;
+        padding-top: .25rem;
+    } 
+}

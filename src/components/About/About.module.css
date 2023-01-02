@@ -2,7 +2,37 @@
     padding: 2rem 2rem 2rem 2rem;
 }
 
-.about_items {
+.about > p {
     text-align: center;
     align-items: center;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For hd devices */
+@media screen and (min-width: 1250px) {
+    .about{
+        padding: 0rem 8rem 0rem 8rem; 
+    }
+
+    .about > p{
+        font-size: 1.1rem;
+    }
+}
+  
+/* For full hd devices */
+@media screen and (min-width: 1900px) {
+    .about{
+        padding: 0rem 20rem 0rem 20rem;  
+    }
+
+    .about > p {
+        font-size: 2rem;
+    }
+}
+
+/* For 2k and 4k devices */
+@media screen and (min-width: 3000px) {
+    .about > p {
+        font-size: 3rem;
+    }
 }

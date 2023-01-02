@@ -6,7 +6,6 @@ import Fade from 'react-reveal';
 export const About = () => {
   return (
     <div className={styles.about} id="about">
-      <div className={styles.about_items}>
         <Fade left>
           <h1>Sobre</h1>
         </Fade>
@@ -17,8 +16,7 @@ export const About = () => {
           Possuo facilidade em aprender coisas novas, o que facilitou adquirir conhecimento sobre novas linguagens com o dia a dia, superando mudanças e desafios.
           </p>
         </Fade>
-        </div>  
-    </div>
+      </div>  
   )
 }
 

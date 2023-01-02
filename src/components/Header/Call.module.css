@@ -72,3 +72,50 @@ video {
     }
 }
 
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 578px) {
+    .logo_image {
+        width: 30rem;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1200px) {
+    .logo_image {
+        width: 25rem;
+        top: 20%;
+        right: 50%;
+    }
+
+    .cross{
+        bottom: 2.5rem;
+    }
+}
+
+/* For full HD devices */
+@media screen and (min-width: 1900px) {
+    .logo_image {
+        width: 35rem;
+        top: 20%;
+        right: 50%;
+    }
+
+    .cross{
+        bottom: 3.5rem;
+    }
+}
+  
+/* For 2k and 4k devices */
+@media screen and (min-width: 3000px) {
+    .logo_image {
+        width: 70rem;
+        top: 25%;
+        right: 50%;
+    }
+
+    .cross{
+        zoom: 2.5;
+    }
+
+} 

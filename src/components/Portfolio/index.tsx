@@ -50,11 +50,31 @@ export const Portfolio = () => {
                 <div>
                     <Swiper
                         slidesPerView={1.12}
-                        spaceBetween= {15}
+                        spaceBetween= {16}
                         pagination={{clickable: true,}}
                         modules={[FreeMode, Pagination]}
-                        
+                        breakpoints={{                            
+                            // when window width is >= 768px
+                            768: {
+                              slidesPerView: 2.25,
+                            },
+                            // when window width is >= 1200px
+                            1200: {
+                              slidesPerView: 3.15,
+                            },
+                            // when window width is >= 1900px
+                            1900: {
+                                spaceBetween: 32,
+                                slidesPerView: 4.15,
+                              },
+                            3000: {
+                                spaceBetween: 65,
+                                slidesPerView: 4.15,
+                              },
+                          }}
                         className="mySwiper"
+
+                        
                     >
                         <div>
                             <div className="swiper-wrapper">

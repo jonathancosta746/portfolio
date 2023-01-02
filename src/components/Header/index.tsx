@@ -34,7 +34,6 @@ export const Header = () => {
           </div>        
         </a>
       </Zoom>
-      
     </header>
   )
 }
