@@ -54,7 +54,7 @@ button{
 }
 
 .swiper-wrapper{
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
   -webkit-user-select:none; 
   user-select:none;   
 }
@@ -74,6 +74,7 @@ button{
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   width: .8rem;
   height: .8rem;
+  margin-bottom: 2rem!important;
 }
 
 
@@ -91,9 +92,9 @@ button{
 
   /* For Full HD devices */
 @media screen and (min-width: 1900px) {
-    h1{
-      padding: 5rem 0rem 3rem 0rem;
-      font-size: 3rem;
+  h1{
+    padding: 5rem 0rem 3rem 0rem;
+    font-size: 3rem;
   }
 
   .swiper-wrapper{

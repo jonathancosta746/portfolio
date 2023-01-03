@@ -26,6 +26,7 @@ type Project = {
     id: string;
     name: string;
     static_img: string;
+    description_img: string;
     short_description: string;
     full_description: string;
     link_web:string;
@@ -40,13 +41,12 @@ export const Portfolio = () => {
 
   return (
     <div className={styles.project} id="portfolio">
-        <Fade left>
+        <Fade>
             <h1>Portfolio</h1>
         </Fade>          
 
-
         <div className={styles.project_item}>      
-            <Fade right>
+            <Fade>
                 <div>
                     <Swiper
                         slidesPerView={1.12}

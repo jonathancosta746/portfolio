@@ -14,6 +14,7 @@ type Project = {
   id: string;
   name: string;
   static_img: string;
+  description_img: string;
   short_description: string;
   full_description: string;
   link_web:string;
@@ -26,12 +27,9 @@ export const ProjectDetail = () => {
   const {id}:any = useParams();
 
   const project = useContext<Project[]>(DataContext)
-
-  let name = project[id].name;
-  
-  let static_img = project[id].static_img;
-  
-  let full_description = project[id].full_description;
+  const name = project[id].name;
+  const description_img = project[id].description_img;
+  const full_description = project[id].full_description;
   /*
   let link_web = project[id].link_web;
   let link_github = project[id].link_github;
@@ -42,7 +40,7 @@ export const ProjectDetail = () => {
     <div className={styles.project_detail}>
       <h1>{name}</h1>
 
-      <img src={static_img} alt="Imagem do Projeto" className={styles.project_img}/>
+      <img src={description_img} alt="Imagem do Projeto" className={styles.project_img}/>
 
       <p>{full_description}</p>
     

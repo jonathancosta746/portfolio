@@ -6,11 +6,11 @@ import Fade from 'react-reveal';
 export const Contact = () => {
   return (
     <div id='contact' className={styles.contact}>
-        <Fade left>
+        <Fade>
             <h1>Contato</h1>
         </Fade>    
             
-        <Fade right>
+        <Fade>
             <div className={styles.appointment}>
                 <div className={styles.appointment_info}>
                     <h2>Envie uma mensagem<span>.</span></h2>
