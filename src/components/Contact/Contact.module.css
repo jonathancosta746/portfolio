@@ -3,14 +3,14 @@
     overflow: hidden;
 }
 
-.appointment{
+.contact{
   display: grid;
   grid-template-areas:
   "appointment_info"
   "appointment_form";
 }
     
-.appointment_form {
+.contact_form {
     grid-area: appointment_form;
     display: flex;
     flex-direction: column;
@@ -23,24 +23,23 @@
     padding-bottom: 2rem
 }
 
-.appointment_info {
+.contact_info {
   grid-area: appointment_info;
 }
 
-.appointment_info > h2{
+.contact_info > h2{
   margin-top: -1rem;
 }
 
-.appointment_info > p{
+.contact_info > p{
   padding-bottom: 2rem;
 }
     
-.appointment_info span{
+.contact_info span{
  color: #02B1C3;
  font-size: 3rem;
 }
-
-    
+ 
 .form_group{
   font-size: 0.85rem;
   display: inline-block;

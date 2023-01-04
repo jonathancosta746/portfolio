@@ -18,9 +18,6 @@ import { FreeMode, Pagination } from "swiper";
 import { useContext } from "react";
 import { DataContext } from "../ContextData/DataContext";
 
-//React Router Dom
-import { Link } from "react-router-dom"
-
 
 type Project = {
     id: string;
@@ -91,9 +88,9 @@ export const Projects = () => {
                                                                 <button className={styles.btn_web}><i className='bx bx-world'></i>Acesse</button>
                                                             </a>
 
-                                                            <Link to={`/project/${projetos.id}/info`}>
+                                                            <a href={`/project/${projetos.id}/info`}>
                                                                 <button className={styles.btn_github}><i className='bx bxl-github'></i>Info</button>
-                                                            </Link>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </article>

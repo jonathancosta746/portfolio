@@ -73,21 +73,21 @@
     border: 1px solid #00BFD1;
 }
 
-.btn_github:hover, .btn_info:hover {
+.btn_github:hover{
     background-color: #000000;
-    color: #ffffff;
-    border: 1px solid #ffffff;
+    color: rgb(221, 221, 221);
+    border: 1px solid rgb(221, 221, 221);
 }
 
 /*icones dos botoes*/
-.btn_web > i, .btn_github > i, .btn_info > i {
+.btn_web > i, .btn_github > i {
     font-size: 1.6rem;
     color: #000000;
     transition: .8s ease;
 }
 
-.btn_github:hover > i, .btn_info:hover > i {
-    color: #ffffff;
+.btn_github:hover > i {
+    color: rgb(221, 221, 221);
 }
 .btn_web:hover > i{
     color: #00BFD1;

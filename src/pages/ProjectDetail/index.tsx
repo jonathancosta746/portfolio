@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import { useContext } from "react";
 import { DataContext } from "../../components/ContextData/DataContext";
 
+//components
 import { Projects } from '../../components/Projects';
 import { Footer } from '../../components/Footer';
 
