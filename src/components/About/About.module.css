@@ -17,13 +17,14 @@
 
     .about > p{
         font-size: 1.1rem;
+        padding: 0 8rem 0 8rem;
     }
 }
   
 /* For full hd devices */
 @media screen and (min-width: 1900px) {
     .about{
-        padding: 0rem 20rem 5rem 20rem;  
+        padding: 0rem 15rem 5rem 15rem;  
     }
 
     .about > p {
@@ -39,5 +40,6 @@
 
     .about > p {
         font-size: 3rem;
+        padding: 0 20rem 0 20rem;
     }
 }

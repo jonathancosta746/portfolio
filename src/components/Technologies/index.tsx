@@ -13,7 +13,7 @@ export const Tecnologies = () => {
         </Fade>
         <Fade>
           <div className={styles.technologies_content}>
-            <div>
+            <div className={styles.technologies_item}>
               <i className="devicon-react-original colored"></i>
               <p>ReactJs/Native</p>
             </div>

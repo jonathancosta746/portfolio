@@ -38,22 +38,22 @@
     }
 
     .degree_img{
-        max-width: 8rem;
+        max-width: 7rem;
     }
 
     .degree_detail{
-        font-size: .9rem;
+        font-size: .8rem;
     }
 }
   
 /* For full hd devices */
 @media screen and (min-width: 1900px) {
     .degree_img{
-        max-width: 10.5rem;
+        max-width: 9rem;
     }
 
     .degree_detail{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -64,12 +64,16 @@
     }
 
     .degree_img{
-        max-width: 17rem;
+        max-width: 15rem;
     }
 
     .degree_detail{
-        font-size: 2.3rem;
+        font-size: 2rem;
         padding-left: 3rem;
+    }
+
+    .degree_item{
+        padding-bottom: 5rem;
     }
 }
 

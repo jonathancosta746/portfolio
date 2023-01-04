@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 import { useContext } from "react";
 import { DataContext } from "../../components/ContextData/DataContext";
 
-import { Portfolio } from '../../components/Portfolio';
+import { Projects } from '../../components/Projects';
 import { Footer } from '../../components/Footer';
 
 
@@ -40,11 +40,17 @@ export const ProjectDetail = () => {
     <div className={styles.project_detail}>
       <h1>{name}</h1>
 
-      <img src={description_img} alt="Imagem do Projeto" className={styles.project_img}/>
+      <div className={styles.project_img}>
+        <img src={description_img} alt="Imagem do Projeto"/>
+      </div>
+      
+      <div className={styles.project_text}>
+        <p>{full_description}</p>
 
-      <p>{full_description}</p>
-    
-      <Portfolio />
+        <h2>Mais projetos<span>.</span></h2>
+      </div>
+
+      <Projects />
       <Footer />
     </div>
   )

@@ -42,27 +42,43 @@
         padding: 0rem 8rem 4rem 8rem; 
     }
 
-    .work > p{
-        font-size: 1.1rem;
+    .work_item{
+        grid-template-areas:
+        "work_image work_details work_details work_details";
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .work_detail > p{
+        font-size: 1rem;
+        padding-right: 8rem;
     }
     
     .work_img{
         max-width: 7rem;
+    }
+
+    .work_image{
+        padding-right: 1rem;
+        margin-right: 0;
     }
 }
   
 /* For full hd devices */
 @media screen and (min-width: 1900px) {
     .work{
-        padding: 0rem 20rem 5rem 20rem;  
+        padding: 0rem 10rem 5rem 10rem;  
+    }
+
+    .work_item{
+        padding-bottom: 3rem;
     }
 
     .work_detail > h2 {
-        font-size: 2.3rem;
+        font-size: 2.1rem;
     }
 
     .work_detail > p {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .work_img{
@@ -76,12 +92,17 @@
         padding: 0rem 20rem 9rem 20rem;  
     }
 
+    .work_item{
+        padding-bottom: 5rem;
+    }
+
     .work_detail > h2 {
         font-size: 3.8rem;
     }
 
     .work_detail > p {
         font-size: 2.7rem;
+        padding-right: 25rem;
     }
 
     .work_img{
