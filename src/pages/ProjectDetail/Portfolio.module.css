@@ -1,16 +1,16 @@
 .project_detail{
         padding: 0rem 1rem 0rem 1rem; 
         overflow: hidden;
+        text-align: center;
 }
 
 .project_img{
     width: 50rem;
     max-width: 100%;
-    border-radius: 1rem;
 }
 
 .project_detail > p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: -0.07rem;
     padding: 2rem 1rem 1rem 1rem;
 }
