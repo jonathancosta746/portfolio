@@ -5,10 +5,9 @@ import {  BrowserRouter, Routes, Route  } from 'react-router-dom';
 import { Home } from './pages/Home/Home';
 import { ProjectDetail } from './pages/ProjectDetail';
 
-//Component
-import { NavBar } from './components/NavBar';
-
+//ContextAPI
 import { DataContextProvider } from './components/ContextData/DataContext';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
     <div className="App">
       <DataContextProvider>
         <BrowserRouter>
-          <NavBar />
+            <ScrollToTop/>
             <Routes>
               <Route path="/" element={<Home />}/>
 

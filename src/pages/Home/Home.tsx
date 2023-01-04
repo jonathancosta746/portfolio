@@ -7,11 +7,13 @@ import { Degree } from '../../components/Degree';
 import { Contact } from '../../components/Contact';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
+import { NavBar } from '../../components/NavBar';
 
 
 export const Home = () => {
   return (
     <>
+      <NavBar />
       <Header />
       <Portfolio />
       <About />
