@@ -35,34 +35,7 @@
     font-size: .7rem;
 }
 
-.btn_degree{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: .3rem;
-    font-size: .7rem;
-    width: 6.2rem;
-    height: 1.5rem;
-    color: #000000;
-    background-color: rgb(221, 221, 221);
-    transition: .8s ease;
-}
-.btn_degree:hover{
-    background-color: #3f3f3f;
-    color: rgb(221, 221, 221);
-    border: 1px solid rgb(221, 221, 221);
-}
 
-/*icones dos botoes*/
-.btn_degree > i{
-    font-size: 1.2rem;
-    color: #3f3f3f;
-    transition: .8s ease;
-}
-
-.btn_degree:hover > i{
-    color: rgb(221, 221, 221);
-}
 
 /*=============== BREAKPOINTS ===============*/
 /* For hd devices */

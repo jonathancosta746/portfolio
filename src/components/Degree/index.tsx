@@ -26,9 +26,6 @@ export const Degree = () => {
           <div className={styles.degree_detail}>
             <h2>BootCamp Orange Tech+ (JavaScript, TypeScript, e React.Js)</h2>
             <p>Banco Inter</p>
-            <a href={`*`}>
-              <button className={styles.btn_degree}><i className='bx bxs-graduation'></i>Certificado</button>
-            </a>
           </div>
         </Fade> 
       </div>
@@ -45,9 +42,6 @@ export const Degree = () => {
           <div className={styles.degree_detail}>
             <h2>TypeScript do Básico ao Avançado</h2>
             <p>Udemy</p>
-            <a href={`*`}>
-              <button className={styles.btn_degree}><i className='bx bxs-graduation'></i>Certificado</button>
-            </a>
           </div>
         </Fade> 
       </div>
@@ -63,9 +57,6 @@ export const Degree = () => {
           <div className={styles.degree_detail}>
             <h2>React do Zero a Maestria (c/ hooks, router, API, Projetos)</h2>
             <p>Udemy</p>
-            <a href={`*`}>
-              <button className={styles.btn_degree}><i className='bx bxs-graduation'></i>Certificado</button>
-            </a>
           </div>
         </Fade> 
       </div>
@@ -82,9 +73,6 @@ export const Degree = () => {
           <div className={styles.degree_detail}>
             <h2>Desenvolvimento com JavaScript ES6</h2>
             <p>Dio - Digital Innovation One Inc.</p>
-            <a href={`*`}>
-              <button className={styles.btn_degree}><i className='bx bxs-graduation'></i>Certificado</button>
-            </a>
           </div>
         </Fade>  
       </div>
@@ -101,9 +89,6 @@ export const Degree = () => {
           <div className={styles.degree_detail}>
             <h2>Responsividade e Experiência do Usuário - UX/UI</h2>
             <p>Dio - Digital Innovation One Inc.</p>
-            <a href={`*`}>
-              <button className={styles.btn_degree}><i className='bx bxs-graduation'></i>Certificado</button>
-            </a>
           </div>
         </Fade>
       </div>
@@ -120,9 +105,6 @@ export const Degree = () => {
           <div className={styles.degree_detail}>
             <h2>Desenvolvimento em HTML.</h2>
             <p>Fundação Bradesco</p>
-            <a href={`*`}>
-              <button className={styles.btn_degree}><i className='bx bxs-graduation'></i>Certificado</button>
-            </a>
           </div>
         </Fade> 
       </div>  
