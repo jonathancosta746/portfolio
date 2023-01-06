@@ -80,7 +80,7 @@ export const data = [
                 "id": "7",
                 "name": "Interface Administrador - Loja",
                 "static_img": "https://user-images.githubusercontent.com/26524921/163629344-e60601d5-7aff-4ed4-8a7d-a386a2c99c02.png",
-                "description_img": "https://user-images.githubusercontent.com/26524921/210456278-251a6fe5-f7f7-4bdf-b0a9-fe1675e3b26b.png",
+                "description_img": "https://user-images.githubusercontent.com/26524921/210614766-4f827e14-1ab4-494b-90fe-fbc4ebdc17b1.png",
                 "short_description": "O Projeto consiste no Front-End da parte administrativa de uma loja virtual",
                 "full_description": "Projeto focado na criação do Front-end da parte administrativa de uma loja virtual.",
                 "link_web":"https://jonathancosta746.github.io/Loja-Interface-Administrador/",

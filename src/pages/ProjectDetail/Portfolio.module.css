@@ -31,21 +31,21 @@
 /* For hd devices */
 @media screen and (min-width: 1250px) {
     .project_text {
-        padding: 2rem 9rem 1rem 11rem;
+        padding: 2rem 9rem 1rem 9rem;
     }
   }
   
   /* For full hd devices */
   @media screen and (min-width: 1900px) {
     .project_text {
-        padding: 2rem 12rem 1rem 16rem;
+        padding: 2rem 16rem 1rem 16rem;
     }
   }
   
   /* For 2k and 4k devices */
   @media screen and (min-width: 3000px) {
-    .project_detail > p {
-        padding: 2rem 30rem 1rem 36rem;
+    .project_text {
+        padding: 2rem 35rem 1rem 35rem;
         font-size: 2.5rem;
     }
 

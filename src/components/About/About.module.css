@@ -35,11 +35,11 @@
 /* For 2k and 4k devices */
 @media screen and (min-width: 3000px) {
     .about{
-        padding: 0rem 25rem 10rem 25rem;  
+        padding: 0rem 30rem 10rem 30rem;  
     }
 
     .about > p {
-        font-size: 3rem;
+        font-size: 2.6rem;
         padding: 0 20rem 0 20rem;
     }
 }

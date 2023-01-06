@@ -9,18 +9,17 @@
 }
 
 .icon{
-    position: fixed;
+    position: absolute;
     z-index: 10;
-    left: 1%;
     width: 10rem;
     height: 4rem;
     cursor: pointer;
 }
 
 .hamburguer{
-    position: absolute;
+    position: fixed;
     top: 2rem;
-    left: 5%;
+    right: 7%;
     width: 30px;
     height: 6px;
     border-radius: 5px;

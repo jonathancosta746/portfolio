@@ -68,22 +68,22 @@ i{
 /* For 2k and 4k devices */
 @media screen and (min-width: 3000px) {
     .technologies{
-        padding: 0rem 45rem 9rem 45rem;  
+        padding: 0rem 50rem 9rem 50rem;  
     }
     .technologies > h1{
-        padding-bottom: 8rem;  
+        padding-bottom: 12rem;  
     }
 
     .technologies_content{
-        font-size: 3.5rem;
+        font-size: 3rem;
         gap: 4rem;
     }
     
     i{
-        font-size: 9rem;
+        font-size: 8rem;
     }
     
     .technologies_img {
-        width: 9rem;
+        width: 8rem;
     }
 }

@@ -9,6 +9,7 @@ import { DataContext } from "../../components/ContextData/DataContext";
 //components
 import { Projects } from '../../components/Projects';
 import { Footer } from '../../components/Footer';
+import { MenuBack } from '../../components/MenuBack';
 
 
 type Project = {
@@ -39,6 +40,7 @@ export const ProjectDetail = () => {
  
   return (
     <div className={styles.project_detail}>
+      <MenuBack />
       <h1>{name}</h1>
 
       <div className={styles.project_img}>
@@ -48,7 +50,7 @@ export const ProjectDetail = () => {
       <div className={styles.project_text}>
         <p>{full_description}</p>
 
-        <h2>Mais projetos<span>.</span></h2>
+        <h2>Outros projetos<span>.</span></h2>
       </div>
 
       <Projects />

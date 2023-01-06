@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-// import required modules
+// import required modules Swiper
 import { FreeMode, Pagination } from "swiper";
 
 //hooks

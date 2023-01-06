@@ -89,7 +89,7 @@
 /* For 2k and 4k devices */
 @media screen and (min-width: 3000px) {
     .work{
-        padding: 0rem 20rem 9rem 20rem;  
+        padding: 0rem 35rem 10rem 35rem;
     }
 
     .work_item{
@@ -97,12 +97,12 @@
     }
 
     .work_detail > h2 {
-        font-size: 3.8rem;
+        font-size: 3.5rem;
     }
 
     .work_detail > p {
-        font-size: 2.7rem;
-        padding-right: 25rem;
+        font-size: 2.5rem;
+        padding-right: 20rem;
     }
 
     .work_img{

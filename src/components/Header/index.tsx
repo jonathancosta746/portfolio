@@ -5,11 +5,13 @@ import HomeVideo from '../../assets/HomeVideo.mp4'
 
 //React Reveal para animações de exibição
 import {Fade, Zoom} from 'react-reveal';
+import { Menu } from '../Menu';
 
 
 export const Header = () => {
   return (
     <header>
+      <Menu/>
       <video 
         autoPlay={true} 
         loop={true}
