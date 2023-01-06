@@ -7,7 +7,7 @@ import HomeVideo from '../../assets/HomeVideo.mp4'
 import {Fade, Zoom} from 'react-reveal';
 import { Menu } from '../Menu';
 
-
+//React Scroll para animações de exibição
 import { Link } from 'react-scroll';
 
 export const Header = () => {
