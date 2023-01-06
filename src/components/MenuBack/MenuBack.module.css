@@ -1,59 +1,6 @@
-.navbar{
-    display: relative;
-}
-
-.menu{
-    position: fixed;
-    background-color: #4BBECF;
-    z-index: 9;
-}
-
-.icon{
-    position: fixed;
-    width: 10rem;
-    height: 4rem;
-    cursor: pointer;
-}
-
-.hamburguer{
+.menu_back{
     position: absolute;
-    top: 2rem;
-    right: 7%;
-    width: 30px;
-    height: 6px;
-    border-radius: 5px;
-    background: aqua;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
-    transition: 0.3s;
+    top: 1%;
+    right: 6%;
+    z-index: 500;
 }
-
-
-.hamburguer::before{
-    top:7px;
-    left: -3px;
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 6px;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transform: rotate(45deg);
-}
-
-.hamburguer::after{
-    top:-7px;
-    left: -3px;
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 6px;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transform: rotate(-45deg);
-}
-
-
-
-
