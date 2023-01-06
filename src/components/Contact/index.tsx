@@ -6,13 +6,13 @@ import Fade from 'react-reveal';
 export const Contact = () => {
   return (
     <div id='contact' className={styles.contact}>
-        <Fade left>
+        <Fade>
             <h1>Contato</h1>
         </Fade>    
             
-        <Fade right>
-            <div className={styles.appointment}>
-                <div className={styles.appointment_info}>
+        <Fade>
+            <div className={styles.contact_container}>
+                <div className={styles.contact_info}>
                     <h2>Envie uma mensagem<span>.</span></h2>
                     <p>Mande uma mensagem que entrarei em contato o mais breve possivel.</p>
                     <div>
@@ -29,7 +29,7 @@ export const Contact = () => {
                     
                 </div>
 
-                <form action="https://formspree.io/f/" method="POST" className={styles.appointment_form}>
+                <form action="https://formspree.io/f/" method="POST" className={styles.contact_form}>
                     <div className={styles.form_group}>
                         <input type="text" placeholder="Nome" name="Nome do Cliente" id="name" required></input>
                     </div>

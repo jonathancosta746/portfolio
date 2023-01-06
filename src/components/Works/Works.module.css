@@ -1,5 +1,6 @@
 .work{
     padding: 2rem 2rem 2rem 2rem;
+    overflow: hidden;
 }
 
 .work_item{
@@ -22,6 +23,7 @@
 .work_img{
     max-width: 100px;
     padding: 20px;
+    opacity: .9;
 }
 
 .work_detail{
@@ -31,4 +33,79 @@
     align-items: left;
     justify-content: center;
     font-size: 1rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For hd devices */
+@media screen and (min-width: 1250px) {
+    .work{
+        padding: 0rem 8rem 4rem 8rem; 
+    }
+
+    .work_item{
+        grid-template-areas:
+        "work_image work_details work_details work_details";
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .work_detail > p{
+        font-size: 1rem;
+        padding-right: 8rem;
+    }
+    
+    .work_img{
+        max-width: 7rem;
+    }
+
+    .work_image{
+        padding-right: 1rem;
+        margin-right: 0;
+    }
+}
+  
+/* For full hd devices */
+@media screen and (min-width: 1900px) {
+    .work{
+        padding: 0rem 10rem 5rem 10rem;  
+    }
+
+    .work_item{
+        padding-bottom: 3rem;
+    }
+
+    .work_detail > h2 {
+        font-size: 2.1rem;
+    }
+
+    .work_detail > p {
+        font-size: 1.5rem;
+    }
+
+    .work_img{
+        max-width: 10rem;
+    }
+}
+
+/* For 2k and 4k devices */
+@media screen and (min-width: 3000px) {
+    .work{
+        padding: 0rem 35rem 10rem 35rem;
+    }
+
+    .work_item{
+        padding-bottom: 5rem;
+    }
+
+    .work_detail > h2 {
+        font-size: 3.5rem;
+    }
+
+    .work_detail > p {
+        font-size: 2.5rem;
+        padding-right: 20rem;
+    }
+
+    .work_img{
+        max-width: 13rem;
+    }
 }

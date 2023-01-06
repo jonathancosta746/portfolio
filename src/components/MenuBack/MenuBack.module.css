@@ -1,0 +1,6 @@
+.menu_back{
+    position: absolute;
+    top: 1%;
+    right: 6%;
+    z-index: 500;
+}

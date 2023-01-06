@@ -39,3 +39,58 @@
     color: #00BFD1;
     transition: .5s;
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* For hd devices */
+@media screen and (min-width: 1250px) {
+    .footer_container{
+        padding: 0rem 8rem 0rem 8rem; 
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer_logo{
+        padding-top: 4rem;
+        width: 15rem;
+        opacity: .9;
+    }
+
+    .footer_right{
+        font-size: 1rem;
+    }
+}
+  
+/* For full hd devices */
+@media screen and (min-width: 1900px) {
+    .footer_container{
+        padding: 0rem 20rem 0rem 20rem; 
+    }
+
+    .footer_logo{
+        padding-top: 6rem;
+        width: 20rem;
+    }
+
+    .footer_right{
+        font-size: 1.3rem;
+        padding-top: 5rem;
+    }
+}
+
+/* For 2k and 4k devices */
+@media screen and (min-width: 3000px) {
+    .footer_container{
+        padding: 0rem 20rem 0rem 20rem;  
+    }
+
+    .footer_logo{
+        padding-top: 10rem;
+        width: 40rem;
+    }
+
+    .footer_right{
+        font-size: 2.8rem;
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+    }
+}

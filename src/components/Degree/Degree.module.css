@@ -1,5 +1,6 @@
 .degree{
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 0rem 2rem;
+    overflow: hidden;
 }
 
 .degree_item{
@@ -8,6 +9,11 @@
     "degree_image degree_details degree_details";
     grid-template-columns: repeat(3, 1fr);
     padding-bottom: 1rem;
+}
+
+.degree_item > a {
+    max-width: 100%;
+    width: 1rem;
 }
 
 .degree_image{
@@ -29,5 +35,59 @@
     font-size: .7rem;
 }
 
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For hd devices */
+@media screen and (min-width: 1250px) {
+    .degree{
+        padding: 0rem 8rem 4em 8rem; 
+    }
+
+    .degree_img{
+        max-width: 7rem;
+    }
+
+    .degree_detail{
+        font-size: .8rem;
+    }
+}
+  
+/* For full hd devices */
+@media screen and (min-width: 1900px) {
+    .degree_img{
+        max-width: 9rem;
+    }
+
+    .degree_detail{
+        font-size: 1.1rem;
+    }
+}
+
+/* For 2k and 4k devices */
+@media screen and (min-width: 3000px) {
+    .degree{
+        padding: 0rem 20rem 9rem 20rem;  
+    }
+
+    .degree_img{
+        max-width: 15rem;
+    }
+
+    .degree_detail > h2{
+        font-size: 2.8rem;
+        padding-left: 3rem;
+    }
+
+    .degree_detail > p{
+        font-size: 2.6rem;
+        padding-left: 3rem;
+        padding-right: 25%;
+    }
+
+    .degree_item{
+        padding-bottom: 5rem;
+    }
+}
 
 

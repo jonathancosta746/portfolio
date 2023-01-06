@@ -5,11 +5,15 @@ import HomeVideo from '../../assets/HomeVideo.mp4'
 
 //React Reveal para animações de exibição
 import {Fade, Zoom} from 'react-reveal';
+import { Menu } from '../Menu';
 
+//React Scroll para animações de exibição
+import { Link } from 'react-scroll';
 
 export const Header = () => {
   return (
-    <header className={styles.call}>
+    <header id="start">
+      <Menu/>
       <video 
         autoPlay={true} 
         loop={true}
@@ -25,16 +29,18 @@ export const Header = () => {
       </Fade>
 
       <Zoom duration={2000}>
-        <a href='#about' className={styles.cross}>
+     
+        <div className={styles.cross}>
+          <Link to='portfolio' spy={true} smooth={true} offset={0} duration={500} >
           <div className={styles.cross_one}>
             <span className="material-symbols-outlined">expand_more</span>
           </div>
           <div className={styles.cross_two}>
             <span className="material-symbols-outlined">expand_more</span>
-          </div>        
-        </a>
+          </div>  
+          </Link>      
+        </div>
       </Zoom>
-      
     </header>
   )
 }

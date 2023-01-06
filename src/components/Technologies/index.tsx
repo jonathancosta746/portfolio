@@ -3,17 +3,17 @@ import LogoStyledComponents from '../../assets/styled-components-logo.png'
 import LogoAPIRestFull from '../../assets/Logo_API_RESTFUL.png'
 
 //React Reveal para animações de exibição
-import {Zoom, Fade} from 'react-reveal';
+import {Fade} from 'react-reveal';
 
 export const Tecnologies = () => {
   return (
     <div id="technologies" className={styles.technologies} >
-        <Fade left>
+        <Fade>
           <h1>Tecnologias</h1>
         </Fade>
-        <Zoom cascade>
+        <Fade>
           <div className={styles.technologies_content}>
-            <div>
+            <div className={styles.technologies_item}>
               <i className="devicon-react-original colored"></i>
               <p>ReactJs/Native</p>
             </div>
@@ -62,7 +62,7 @@ export const Tecnologies = () => {
               <p>Figma</p>
             </div>      
           </div>
-        </Zoom >
+        </Fade >
                         
     </div>
   )

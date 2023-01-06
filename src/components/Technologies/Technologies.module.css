@@ -1,6 +1,7 @@
 .technologies{
     padding: 0rem 2rem 0rem 2rem;
     text-align: center;
+    overflow: hidden;
 }
 
 .technologies_content {
@@ -16,4 +17,73 @@ i{
 
 .technologies_img {
     width: 45px;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For hd devices */
+@media screen and (min-width: 1250px) {
+    .technologies{
+        padding: 0rem 12rem 4rem 12rem; 
+    }
+
+    .technologies_content{
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 1rem;
+        gap: 1.5rem;
+    }
+
+    i{
+        font-size: 3rem;
+    }
+    
+    .technologies_img {
+        width: 3rem;
+    }
+}
+  
+/* For full hd devices */
+@media screen and (min-width: 1900px) {
+    .technologies{
+        padding: 0rem 20rem 4rem 20rem;  
+    }
+
+    .technologies > h1{
+        padding-bottom: 4rem;  
+    }
+
+    .technologies_content{
+        font-size: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    i{
+        font-size: 4.5rem;
+    }
+    
+    .technologies_img {
+        width: 4.5rem;
+    }
+}
+
+/* For 2k and 4k devices */
+@media screen and (min-width: 3000px) {
+    .technologies{
+        padding: 0rem 50rem 9rem 50rem;  
+    }
+    .technologies > h1{
+        padding-bottom: 12rem;  
+    }
+
+    .technologies_content{
+        font-size: 3rem;
+        gap: 4rem;
+    }
+    
+    i{
+        font-size: 8rem;
+    }
+    
+    .technologies_img {
+        width: 8rem;
+    }
 }
