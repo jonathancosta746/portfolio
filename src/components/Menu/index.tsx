@@ -13,7 +13,7 @@ export const Menu = () => {
   }
 
   return (
-    <nav className={styles.navBar}>
+    <nav className={styles.navbar}>
       <div className={active ? `${styles.icon} ${styles.iconActive}` : `${styles.icon}`} onClick={ToggleMode}>
       <Fade duration={2000}>
         <div className={`${styles.hamburguer} ${styles.hamburguer_icon}`}></div>

@@ -11,7 +11,8 @@ export const MenuBack = () => {
     <>
       <Fade>
         <nav className={styles.menu_back}>
-            <Link to={`/`}>          
+            <Link to={`/`}>
+                        
             <span className="material-symbols-outlined">arrow_back</span>
             </Link> 
         </nav>
