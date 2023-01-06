@@ -24,6 +24,8 @@ export const Menu = () => {
       <div className={active ? `${styles.menu} ${styles.menuOpen}` : `${styles.menu} ${styles.menuClose}`}>
         <div className={styles.list}>
           <ul className={styles.listItems}>
+              <Link to="start" spy={true} smooth={true} offset={0} duration={500}  className={styles.navbar_a} onClick={ToggleMode}><li>inicio</li></Link>
+
               <Link to="portfolio" spy={true} smooth={true} offset={0} duration={500}  className={styles.navbar_a} onClick={ToggleMode}><li>Portfolio</li></Link>
 
               <Link to="about" spy={true} smooth={true} offset={0} duration={500}  onClick={ToggleMode}><li>Sobre</li></Link>

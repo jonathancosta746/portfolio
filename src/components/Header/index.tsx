@@ -10,7 +10,7 @@ import { Menu } from '../Menu';
 
 export const Header = () => {
   return (
-    <header>
+    <header id="start">
       <Menu/>
       <video 
         autoPlay={true} 
