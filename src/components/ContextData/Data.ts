@@ -35,7 +35,7 @@ export const data = [
             {
                 "id": "3",
                 "name": "Blog",
-                "static_img": "https://raw.githubusercontent.com/jonathancosta746/portfolio/main/src/assets/landingpageHospital_project.png",
+                "static_img": "https://user-images.githubusercontent.com/26524921/167458724-cd32a1ee-0909-42bb-b3d5-49a2a5afc1f2.png",
                 "description_img": "https://user-images.githubusercontent.com/26524921/210449653-407ce35f-5bfa-4db3-b265-841b600ae1ca.png",
                 "short_description": "Blog criado utilizando React.Js e seu banco de dados hospedado no Firebase",
                 "full_description": "Blog criado durante o curso React do Zero a Maestria (c/ hooks, router, API, Projetos) ministrado pelo desenvolvedor Matheus Battisti na plataforma Udemy. No blog é possivel que o usuário crie sua conta pessoal, e após efetuado login poste imagens e textos, sendo possivel posteiormente sua edição e exclusão dos posts.",

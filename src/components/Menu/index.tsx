@@ -7,6 +7,7 @@ import {Fade} from 'react-reveal';
 import { Link } from 'react-scroll';
 
 export const Menu = () => {
+  //funçoes para abrir o menu
   const[active, setMode] = useState(false);
   const ToggleMode = () => {
     setMode(!active)
@@ -14,12 +15,11 @@ export const Menu = () => {
 
   return (
     <nav className={styles.navbar}>
-      <div className={active ? `${styles.icon} ${styles.iconActive}` : `${styles.icon}`} onClick={ToggleMode}>
-      <Fade duration={2000}>
-        <div className={`${styles.hamburguer} ${styles.hamburguer_icon}`}></div>
-        </Fade>
-      </div>
-     
+        <div className={active ? `${styles.icon} ${styles.iconActive}` : `${styles.icon}`} onClick={ToggleMode}>
+        <Fade duration={2000}>
+          <div className={`${styles.hamburguer} ${styles.hamburguer_icon}`}></div>
+          </Fade>
+        </div>
 
       <div className={active ? `${styles.menu} ${styles.menuOpen}` : `${styles.menu} ${styles.menuClose}`}>
         <div className={styles.list}>

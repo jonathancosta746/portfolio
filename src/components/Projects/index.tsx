@@ -19,7 +19,7 @@ import { useContext } from "react";
 import { DataContext } from "../ContextData/DataContext";
 
 //React Router Dom	
-import { Link } from "react-router-dom"	
+import { Link, useParams } from "react-router-dom"	
 
 
 type Project = {
@@ -36,6 +36,11 @@ type Project = {
 
 export const Projects = () => {
   const projects = useContext<Project[]>(DataContext)
+
+  const {id}:null | any = useParams();
+
+  //filtro para remover do map item que ja esta sendo exibido na sessão detalhes
+  let projectsFiltered = projects.filter(project => project.id !== id);
 
   return (
     <div className={styles.project}>
@@ -73,7 +78,7 @@ export const Projects = () => {
                         <div>
                             <div className="swiper-wrapper">
                             <ul>
-                                {projects?.map(projetos => {
+                                {projectsFiltered?.map(projetos => {
                                     return (
                                         <li key={projetos.id}>
                                             <SwiperSlide>

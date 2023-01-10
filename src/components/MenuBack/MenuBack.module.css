@@ -4,3 +4,11 @@
     right: 6%;
     z-index: 500;
 }
+
+/* For 2k and 4k devices */
+@media screen and (min-width: 3000px) {   
+    .menu_back{
+        top: 2%;
+        zoom: 2;
+    }
+}
