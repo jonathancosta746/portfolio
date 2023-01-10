@@ -1,5 +1,5 @@
 import styles from './Menu.module.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 //React Reveal para animações de exibição
 import {Fade} from 'react-reveal';
@@ -13,11 +13,31 @@ export const Menu = () => {
     setMode(!active)
   }
 
+  //função esconder menu no momento da rolagem do scroll
+  const [menuHide, setmenuHide] = useState(false);
+
+  useEffect(()=>{
+    const scrollListener = () => {
+      if(window.scrollY > 30 ) {
+        setmenuHide(true);
+      }
+        else {
+          setmenuHide(false);
+      } 
+    }
+
+    window.addEventListener('scroll', scrollListener);
+    return () => {
+      window.removeEventListener('scroll', scrollListener);
+    }
+  }, []);
+
+
   return (
-    <nav className={styles.navbar}>
-        <div className={active ? `${styles.icon} ${styles.iconActive}` : `${styles.icon}`} onClick={ToggleMode}>
-        <Fade duration={2000}>
-          <div className={`${styles.hamburguer} ${styles.hamburguer_icon}`}></div>
+    <nav className={menuHide ? `${styles.nav_hide}` : ''}>
+        <div onClick={ToggleMode} className={active ? `${styles.icon} ${styles.iconActive}` : `${styles.icon}`}>
+          <Fade>
+            <div className={`${styles.hamburguer} ${styles.hamburguer_icon}`}></div>
           </Fade>
         </div>
 
