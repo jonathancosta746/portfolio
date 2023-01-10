@@ -4,16 +4,17 @@ import { useState, useEffect } from 'react';
 //React Reveal para animações de exibição
 import {Fade} from 'react-reveal';
 
+//React Scrol para animações de exibição ao escolher item do menu
 import { Link } from 'react-scroll';
 
 export const Menu = () => {
-  //funçoes para abrir o menu
+  //função para abrir o menu
   const[active, setMode] = useState(false);
   const ToggleMode = () => {
     setMode(!active)
   }
 
-  //função esconder menu no momento da rolagem do scroll
+  //função para esconder menu no momento da rolagem do scroll
   const [menuHide, setmenuHide] = useState(false);
 
   useEffect(()=>{

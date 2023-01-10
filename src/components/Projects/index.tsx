@@ -19,7 +19,7 @@ import { useContext } from "react";
 import { DataContext } from "../ContextData/DataContext";
 
 //React Router Dom	
-import { Link, useParams } from "react-router-dom"	
+import { Link, useParams } from "react-router-dom"
 
 
 type Project = {

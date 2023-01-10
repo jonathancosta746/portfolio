@@ -16,14 +16,17 @@ export const Contact = () => {
                     <h2>Envie uma mensagem<span>.</span></h2>
                     <p>Mande uma mensagem que entrarei em contato o mais breve possivel.</p>
                     <div>
-                        <a href="https://www.linkedin.com/in/jonathansantos-costa/" target="_blank" rel="noreferrer noopener">
-                            <button className={styles.appointment_button_linkedin}>LinkedIn</button>
+                        <a href="mailto:jonathancosta746@gmail.com">
+                            <div className={styles.contact_item}>
+                                <i className='bx bx-envelope'></i>
+                                <p>jonathancosta746@gmail.com</p>
+                            </div>
                         </a>
-                        <a href="https://github.com/jonathancosta746" target="_blank" rel="noreferrer noopener">
-                            <button className={styles.appointment_button_github}>GitHub</button>
-                        </a>
-                        <a href="https://www.youtube.com/@JonathanCosta746/" target="_blank" rel="noreferrer noopener">
-                            <button className={styles.appointment_button_youtube}>Youtube</button>
+                        <a href="https://api.whatsapp.com/send?phone=5561995377732" target="_blank" rel="noreferrer noopener">
+                            <div className={styles.contact_item}>
+                                <i className='bx bxl-whatsapp' ></i>
+                                <p>+55 61 99537-732</p>
+                            </div>
                         </a>
                     </div>
                     

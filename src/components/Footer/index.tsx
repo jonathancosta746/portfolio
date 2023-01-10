@@ -1,6 +1,9 @@
 import jonathanDevLogo from '../../assets/HomeImage.png';
 import styles from './Footer.module.css';
 
+//React Scrol para animações de exibição ao escolher item do menu
+import { Link } from 'react-scroll';
+
 //React Reveal para animações de exibição
 import Fade from 'react-reveal';
 
@@ -9,9 +12,11 @@ export const Footer = () => {
     <footer>
       <Fade>
         <div className={styles.footer_container}>
-          <div>
+        
+          <Link to="start" spy={true} smooth={true} offset={0} duration={500}>
             <img src={jonathanDevLogo} alt="logo Jonathan Costa Dev" className={styles.footer_logo} />
-          </div>
+          </Link>  
+      
 
           <div className={styles.footer_icons}>
             <a href="https://github.com/jonathancosta746" target="_blank" rel="noreferrer noopener" className={styles.footer_icon_item}> 

@@ -10,6 +10,7 @@
 .footer_logo{
     padding-top: 3rem;
     width: 200px;
+    cursor: pointer;
 }
 
 .footer_icons{

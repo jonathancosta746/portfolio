@@ -1,9 +1,5 @@
 .contact{
-    padding: 2rem 2rem 2rem 2rem;
-    overflow: hidden;
-}
-
-.contact{
+  padding: 2rem 2rem 2rem 2rem;
   display: grid;
   grid-template-areas:
   "appointment_info"
@@ -20,7 +16,6 @@
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: rgb(0 0 0 / 50%) 0px 20px 50px;
-    padding-bottom: 2rem
 }
 
 .contact_info {
@@ -29,6 +24,7 @@
 
 .contact_info > h2{
   margin-top: -1rem;
+  color: rgb(230, 230, 230);
 }
 
 .contact_info > p{
@@ -38,6 +34,34 @@
 .contact_info span{
  color: #02B1C3;
  font-size: 3rem;
+}
+
+.contact_item{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  cursor: pointer;
+  padding-bottom: 1rem;
+}
+
+.contact_item > p {
+  font-weight: 800;
+  color: rgb(230, 230, 230);
+  transition: .5s ease;
+}
+
+.contact_item > i {
+  font-size: 2rem;
+  color: #02B1C3;
+  transition: .5s ease;
+}
+
+.contact_item:hover > p {
+  color: rgb(255, 255, 255);
+}
+
+.contact_item:hover > i {
+  color: #00d2e9;
 }
  
 .form_group{
@@ -72,41 +96,30 @@ select{
   color: white;
 }
 
-.appointment_button_linkedin{
-  background-color: #0358ad;
-  color: white;
-  margin-left: 0rem;
-  transition: .5s;
-}
-.appointment_button_linkedin:hover{
-  background-color: #146bc2;
-}
-
-.appointment_button_github{
-  background-color: rgba(255, 255, 255, 0.87);
-  color: black;
-  transition: .5s;
-}
-.appointment_button_github:hover{
-  background-color: rgba(255, 255, 255, 0.952);
-}
-
-.appointment_button_youtube{
-  background-color: rgb(190, 5, 5);
-  color: white;
-  transition: .5s;
-}
-.appointment_button_youtube:hover{
-  background-color: rgb(218, 15, 15);
-}
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For hd devices */
 @media screen and (min-width: 1250px) {
+  .contact_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "info form";
+    gap: 2rem;
+  }
+
   .contact{
       padding: 0rem 8rem 4rem 8rem; 
   }
+
+  .contact_info{
+    grid-area: info;
+  }
+
+  .contact_form{
+    grid-area: form;
+    margin: 0rem -1rem 0rem -1rem;
+  }
+  
 }
 
 /* For full hd devices */
@@ -129,11 +142,25 @@ select{
 /* For 2k and 4k devices */
 @media screen and (min-width: 3000px) {
   .contact{
-    padding: 0rem 45rem 10rem 45rem;  
+    padding: 0rem 45rem 10rem 45rem;
+    font-size: 2.4rem;  
   }
 
-  .appointment{
-    font-size: 2.7rem;
+  .contact_info > p{
+    font-size: 2.5rem;
+  }
+
+  .contact_item{
+    padding-bottom: 2.5rem;
+    gap: 2rem;
+  }
+
+  .contact_item > p {
+    font-size: 2.5rem;
+  }
+  
+  .contact_item > i {
+    font-size: 3rem;
   }
 
   .appointment_form {

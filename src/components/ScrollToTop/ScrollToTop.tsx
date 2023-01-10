@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+
+//Função para scroll to top a cada renderização de componente
 export default function ScrollToTop() {
   const { pathname } = useLocation();
 
