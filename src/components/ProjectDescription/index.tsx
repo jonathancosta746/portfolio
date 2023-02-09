@@ -7,7 +7,7 @@ import {Fade} from 'react-reveal';
 //hooks
 import { useParams } from "react-router-dom";
 import { useContext } from "react";
-import { DataContext } from "../../components/ContextData/DataContext";
+import { DataContext } from "../../context/ContextData/DataContext";
 
 type Project = {
   id: string;

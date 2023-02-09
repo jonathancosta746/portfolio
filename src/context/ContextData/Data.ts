@@ -67,17 +67,6 @@ export const data = [
             },
             {
                 "id": "6",
-                "name": "Secrect Word Game",
-                "static_img": "https://user-images.githubusercontent.com/26524921/185351406-3c0b6899-85ed-4f7b-958e-3f48b717b0d5.png",
-                "description_img": "https://user-images.githubusercontent.com/26524921/210453751-c497c225-fea1-4435-92c5-ba8e9b4dcc4d.png",
-                "short_description": "WebGame simples utilizando o React Js desenvolvido durante o curso React do Zero a Maestria (c/ hooks, router, API, Projetos) ministrado pelo desenvolvedor Matheus Battisti na plataforma Udemy.",
-                "full_description": "WebGame simples utilizando o React Js desenvolvido durante o curso React do Zero a Maestria (c/ hooks, router, API, Projetos) ministrado pelo desenvolvedor Matheus Battisti na plataforma Udemy.",
-                "link_web":"https://secret-word-react.netlify.app/",
-                "link_github": "https://github.com/jonathancosta746/Game-Secret-Word-React-Js",
-                "link_youtube": "",
-            },
-            {
-                "id": "7",
                 "name": "Interface Administrador - Loja",
                 "static_img": "https://user-images.githubusercontent.com/26524921/163629344-e60601d5-7aff-4ed4-8a7d-a386a2c99c02.png",
                 "description_img": "https://user-images.githubusercontent.com/26524921/210614766-4f827e14-1ab4-494b-90fe-fbc4ebdc17b1.png",
@@ -86,5 +75,5 @@ export const data = [
                 "link_web":"https://jonathancosta746.github.io/Loja-Interface-Administrador/",
                 "link_github": "https://github.com/jonathancosta746/Loja-Interface-Administrador",
                 "link_youtube": "https://www.youtube.com/watch?v=cZ9C1Ph4IsU",
-            }
+            },
         ]

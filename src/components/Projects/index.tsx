@@ -16,7 +16,7 @@ import { FreeMode, Pagination } from "swiper";
 
 //hooks
 import { useContext } from "react";
-import { DataContext } from "../ContextData/DataContext";
+import { DataContext } from "../../context/ContextData/DataContext";
 
 //React Router Dom	
 import { Link, useParams } from "react-router-dom"

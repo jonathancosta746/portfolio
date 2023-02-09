@@ -6,7 +6,7 @@ import { Home } from './pages/Home/Home';
 import { ProjectDetail } from './pages/ProjectDetail';
 
 //ContextAPI
-import { DataContextProvider } from './components/ContextData/DataContext';
+import { DataContextProvider } from "../src/context/ContextData/DataContext";
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 
