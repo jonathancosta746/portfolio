@@ -35,6 +35,24 @@
     font-size: .7rem;
 }
 
+/*Universidade*/
+.degree_item:nth-child(2){
+    padding-bottom: 1.5rem;
+} 
+
+.degree_item:nth-child(4){
+    padding-top: 1.5rem;
+} 
+
+.degree span{
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-top: 1px solid #413e52;
+    width: 8rem;
+}
+
 
 
 /*=============== BREAKPOINTS ===============*/
@@ -51,6 +69,18 @@
     .degree_detail{
         font-size: .8rem;
     }
+
+    .degree span{
+        width: 12rem;
+    }
+
+    .degree_item:nth-child(2){
+        padding-bottom: 2rem;
+    } 
+    
+    .degree_item:nth-child(4){
+        padding-top: 2rem;
+    } 
 }
   
 /* For full hd devices */
@@ -62,6 +92,18 @@
     .degree_detail{
         font-size: 1.1rem;
     }
+
+    .degree span{
+        width: 10rem;
+    }
+
+    .degree_item:nth-child(2){
+        padding-bottom: 3rem;
+    } 
+    
+    .degree_item:nth-child(4){
+        padding-top: 3rem;
+    } 
 }
 
 /* For 2k and 4k devices */

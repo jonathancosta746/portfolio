@@ -11,7 +11,7 @@ export const Menu = () => {
   //função para abrir o menu
   const[active, setMode] = useState(false);
   const ToggleMode = () => {
-    setMode(!active)
+    setMode(!active);
   }
 
   //função para esconder menu no momento da rolagem do scroll
