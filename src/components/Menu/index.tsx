@@ -23,7 +23,8 @@ export const Menu = () => {
         setmenuHide(true);
       }
         else {
-          setmenuHide(false);
+        setmenuHide(false);
+        setMode(false)
       } 
     }
 

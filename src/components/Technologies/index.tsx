@@ -61,11 +61,7 @@ export const Tecnologies = () => {
             <div>
               <i className="devicon-photoshop-line colored"></i>
               <p>Photoshop</p>
-            </div>      
-            <div>
-              <i className="devicon-figma-plain colored"></i>
-              <p>Figma</p>
-            </div>      
+            </div>         
           </div>
         </Fade >
                         
