@@ -22,12 +22,123 @@
     padding-top: 4rem;
 }
 
+/*Video*/
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    height: 15rem;
+    max-width: 100%;
+    margin-bottom: 3rem;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+/*Tecnologias do Projeto*/
+.technologies_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0;
+    padding-bottom: 1rem;
+}
+
+.technologies_list li {
+    text-transform: uppercase;
+    border: #52505e 1px solid;
+    font-size: 1rem;
+    padding: .2rem .7rem;
+    border-radius: .5rem;
+}
+
+.divider{
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-top: 1px solid #52505e;
+    width: 90vw;
+}
+
 .project_text > h2 > span {
     color: #00BFD1;
     zoom: 1.7;
 }
 
+
+/*Botoes*/
+.project_btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: .2rem;
+}
+
+.btn_github, .btn_web{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    width: 6.5rem;
+    height: 2.7rem;
+    color: #000000;
+    background-color: rgb(221, 221, 221);
+    font-size: 1rem;
+    font-weight: 400;
+    transition: .8s ease;
+}
+
+.btn_web{
+    background-color: #00BFD1;
+}
+.btn_web:hover{
+    background-color: #000000;
+    color: #00BFD1;
+    border: 1px solid #00BFD1;
+}
+
+.btn_github:hover{
+    background-color: #000000;
+    color: rgb(221, 221, 221);
+    border: 1px solid rgb(221, 221, 221);
+}
+
+/*icones dos botoes*/
+.btn_web > i, .btn_github > i {
+    font-size: 1.6rem;
+    color: #000000;
+    transition: .8s ease;
+}
+
+.btn_github:hover > i {
+    color: rgb(221, 221, 221);
+}
+.btn_web:hover > i{
+    color: #00BFD1;
+}
+
 /*=============== BREAKPOINTS ===============*/
+/*For Tablets*/
+@media screen and (min-width: 600px) {
+    .project_detail{
+        padding: 0rem 2rem 0rem 2rem; 
+    }
+
+    .video{
+        height: 25rem;
+    }
+}
 /* For hd devices */
 @media screen and (min-width: 1250px) {
     .project_detail > h1 {
@@ -37,12 +148,20 @@
     .project_text {
         padding: 2rem 9rem 1rem 9rem;
     }
+
+    .video{
+        height: 30rem;
+    }
   }
   
   /* For full hd devices */
   @media screen and (min-width: 1900px) {
     .project_text {
         padding: 2rem 16rem 1rem 16rem;
+    }
+
+    .video{
+        height: 42rem;
     }
   }
   

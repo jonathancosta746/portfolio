@@ -9,6 +9,8 @@ export const data = [
                 "link_web":"https://jonathancosta746.github.io/Game-SuperMario/",
                 "link_github": "https://github.com/jonathancosta746/Game-SuperMario",
                 "link_youtube": "https://www.youtube.com/watch?v=4WDCv1O13AY&t",
+                "show_youtube": true,
+                "technologies": ["Html","Css","SwipperJS","FormSpree"],
             },
             {
                 "id": "1",
@@ -19,7 +21,9 @@ export const data = [
                 "full_description": "Landing Page criada para uma corretores de imóveis ou imobiliárias, onde há integração com a biblioteca SwiperJS para criação de slides na sessão onde é exibido os principais imóveis da carteira da imobiliaria ou do corretor. O projeto também possui integração com a biblioteca do FormSpree fazendo com que seja possível os clientes enviarem uma solicitação de contato onde será recebida no email da corretora e a mesma poderá encaminhar para que seus corretores entrem em contato com o cliente.",
                 "link_web":"https://jonathancosta746.github.io/Imobiliaria-Landing-Page/",
                 "link_github": "https://github.com/jonathancosta746/Imobiliaria-Landing-Page",
-                "link_youtube": "https://www.youtube.com/@JonathanCosta746/videos",
+                "link_youtube": "https://www.youtube.com/embed/l78bdUIQ7N8",
+                "show_youtube": true,
+                "technologies": ["Html","Css","SwipperJS","FormSpree"],
             },
             {
                 "id": "2",
@@ -31,6 +35,8 @@ export const data = [
                 "link_web":"https://netflix-clone-react-jsc.netlify.app/",
                 "link_github": "https://github.com/jonathancosta746/Netflix-Clone-React-Js",
                 "link_youtube": "https://www.youtube.com/watch?v=A6O_-JCGnmA",
+                "show_youtube": true,
+                "technologies": ["Html","Css","SwipperJS","FormSpree"],
             },
             {
                 "id": "3",
@@ -42,6 +48,8 @@ export const data = [
                 "link_web":"https://mini-blog-react-js.netlify.app/",
                 "link_github": "https://github.com/jonathancosta746/Mini-blog-React-Js",
                 "link_youtube": "https://www.youtube.com/@JonathanCosta746/videos",
+                "show_youtube": true,
+                "technologies": ["Html","Css","SwipperJS","FormSpree"],
             },
             {
                 "id": "4",
@@ -53,6 +61,8 @@ export const data = [
                 "link_web":"https://jonathancosta746.github.io/LandingPage-Clinica-Hospital/",
                 "link_github": "https://github.com/jonathancosta746/LandingPage-Clinica-Hospital",
                 "link_youtube": "https://www.youtube.com/watch?v=aQgqUxPKTMY&t=54s",
+                "show_youtube": true,
+                "technologies": ["Html","Css","SwipperJS","FormSpree"],
             },
             {
                 "id": "5",
@@ -64,6 +74,8 @@ export const data = [
                 "link_web":"https://gerenciadortarefas-react-js.netlify.app/",
                 "link_github": "https://github.com/jonathancosta746/Gerenciador-de-Tarefas-React-Js",
                 "link_youtube": "",
+                "show_youtube": false,
+                "technologies": ["Html","Css","SwipperJS","FormSpree"],
             },
             {
                 "id": "6",
@@ -75,5 +87,7 @@ export const data = [
                 "link_web":"https://jonathancosta746.github.io/Loja-Interface-Administrador/",
                 "link_github": "https://github.com/jonathancosta746/Loja-Interface-Administrador",
                 "link_youtube": "https://www.youtube.com/watch?v=cZ9C1Ph4IsU",
+                "show_youtube": true,
+                "technologies": ["Html","Css","SwipperJS","FormSpree"],
             },
         ]

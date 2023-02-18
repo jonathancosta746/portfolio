@@ -131,6 +131,10 @@
     .icon{
         right: 4%;
     }
+
+    .icon.iconActive .hamburguer{
+        top: 3rem;
+    }
 }
   
 /* For 2k and 4k devices */
@@ -150,10 +154,6 @@
 
     .hamburguer{
         zoom: 2;
-    }
-
-    .icon.iconActive{
-        zoom: 1.3;
     }
    
 }

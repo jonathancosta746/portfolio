@@ -32,6 +32,8 @@ type Project = {
     link_web:string;
     link_github: string;
     link_youtube: string;
+    show_youtube: boolean;
+    technologies: Array<string>;
 }
 
 export const Projects = () => {
