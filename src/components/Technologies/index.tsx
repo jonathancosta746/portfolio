@@ -1,6 +1,7 @@
 import styles from './Technologies.module.css'
 import LogoStyledComponents from '../../assets/styled-components-logo.png'
 import LogoAPIRestFull from '../../assets/Logo_API_RESTFUL.png'
+import LogoNext from '../../assets/nextjs-logo.png'
 
 //React Reveal para animações de exibição
 import {Fade} from 'react-reveal';
@@ -16,6 +17,10 @@ export const Tecnologies = () => {
             <div className={styles.technologies_item}>
               <i className="devicon-react-original colored"></i>
               <p>ReactJs/Native</p>
+            </div>
+            <div>
+            <img src={LogoNext} alt="styled-components-logo" className={styles.technologies_img} /> 
+              <p>Next.Js</p>
             </div>
             <div>
               <i className="devicon-typescript-plain colored"></i>

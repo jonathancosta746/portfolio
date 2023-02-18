@@ -26,7 +26,7 @@ export const Degree = () => {
         <Fade>
           <div className={styles.degree_detail}>
             <h2>Análise e Desenvolvimento de Sistemas</h2>
-            <p>Universidade Estácio - 2023/2024</p>
+            <p>Universidade Estácio - 2023/2025</p>
           </div>
         </Fade> 
       </div>
