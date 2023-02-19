@@ -25,7 +25,7 @@ export const Contact = () => {
                         <a href="https://api.whatsapp.com/send?phone=5561995377732" target="_blank" rel="noreferrer noopener">
                             <div className={styles.contact_item}>
                                 <i className='bx bxl-whatsapp' ></i>
-                                <p>+55 61 99537-732</p>
+                                <p>+55 61 99537-7732</p>
                             </div>
                         </a>
                     </div>
