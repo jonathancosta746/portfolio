@@ -32,7 +32,7 @@ export const Contact = () => {
                     
                 </div>
 
-                <form action="https://formspree.io/f/" method="POST" className={styles.contact_form}>
+                <form action="https://formsubmit.co/jonathancosta746@gmail.com" method="POST" className={styles.contact_form}>
                     <div className={styles.form_group}>
                         <input type="text" placeholder="Nome" name="Nome do Cliente" id="name" required></input>
                     </div>

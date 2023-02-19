@@ -55,7 +55,6 @@ export const data = [
         "show_youtube": true,
         "technologies": ["Javascript", "Html","Css", "DOM"],
     },
-
     {
         "id": "4",
         "name": "Netlix Clone",
