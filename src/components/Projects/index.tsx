@@ -30,6 +30,7 @@ type Project = {
     short_description: string;
     full_description: string;
     link_web:string;
+    show_github: boolean;
     link_github: string;
     link_youtube: string;
     show_youtube: boolean;
