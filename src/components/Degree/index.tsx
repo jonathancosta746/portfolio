@@ -1,10 +1,10 @@
 import styles from './Degree.module.css';
 
-import LogoEstacio from '../../assets/estacio-logo.png'
-import LogoDio from '../../assets/dio_logo.png';
-import LogoUdemy from '../../assets/Udemy-logo.png';
-import LogoBradesco from '../../assets/logo-fundacao-bradesco.png';
-import LogoOrangeTech from '../../assets/orangeTech.png';
+import LogoEstacio from '../../assets/images/degree/estacio-logo.png'
+import LogoDio from '../../assets/images/degree/dio_logo.png';
+import LogoUdemy from '../../assets/images/degree/Udemy-logo.png';
+import LogoBradesco from '../../assets/images/degree/logo-fundacao-bradesco.png';
+import LogoOrangeTech from '../../assets/images/degree/orangeTech.png';
 
 //React Reveal para animações de exibição
 import {Fade} from 'react-reveal';

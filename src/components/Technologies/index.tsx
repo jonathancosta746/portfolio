@@ -1,7 +1,7 @@
 import styles from './Technologies.module.css'
-import LogoStyledComponents from '../../assets/styled-components-logo.png'
-import LogoAPIRestFull from '../../assets/Logo_API_RESTFUL.png'
-import LogoNext from '../../assets/nextjs-logo.png'
+import LogoStyledComponents from '../../assets/images/technologies/styled-components-logo.png'
+import LogoAPIRestFull from '../../assets/images/technologies/Logo_API_RESTFUL.png'
+import LogoNext from '../../assets/images/technologies/nextjs-logo.png'
 
 //React Reveal para animações de exibição
 import {Fade} from 'react-reveal';

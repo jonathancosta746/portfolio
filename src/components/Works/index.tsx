@@ -1,7 +1,7 @@
 import styles from './Works.module.css'
 
-import workPhilips from '../../assets/workPhilips.png'
-import workDuoSynchro from '../../assets/workDuoSynchro.png'
+import workPhilips from '../../assets/images/works/workPhilips.png'
+import workDuoSynchro from '../../assets/images/works/workDuoSynchro.png'
 
 //React Reveal para animações de exibição
 import {Fade} from 'react-reveal';
