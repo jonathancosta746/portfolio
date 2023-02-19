@@ -37,7 +37,8 @@ i{
     .technologies_content{
         grid-template-columns: repeat(4, 1fr);
         font-size: 1rem;
-        gap: 1.5rem;
+        gap: 2rem;
+        padding-top: 2rem;
     }
 
     i{

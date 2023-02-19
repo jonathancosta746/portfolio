@@ -1,5 +1,5 @@
 .work{
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem 0rem;
     overflow: hidden;
 }
 
@@ -9,6 +9,7 @@
     "work_image work_details work_details";
     grid-template-columns: repeat(3, 1fr);
     padding-bottom: 2rem;
+    padding-right: 1rem;
 }
 
 .work_image{
@@ -36,6 +37,15 @@
 }
 
 /*=============== BREAKPOINTS ===============*/
+@media screen and (min-width: 600px) {
+    .work_item{
+        grid-template-areas:
+        "work_image work_details work_details work_details";
+        grid-template-columns: repeat(4, 1fr);
+        padding-right: 3rem;
+        padding-left: 1rem;
+    }
+}
 /* For hd devices */
 @media screen and (min-width: 1250px) {
     .work{
@@ -46,11 +56,11 @@
         grid-template-areas:
         "work_image work_details work_details work_details";
         grid-template-columns: repeat(4, 1fr);
+        padding-right: 4rem;
     }
 
     .work_detail > p{
         font-size: 1rem;
-        padding-right: 8rem;
     }
     
     .work_img{
