@@ -98,6 +98,13 @@ select{
 
 
 /*=============== BREAKPOINTS ===============*/
+/*For Tablets*/
+@media screen and (min-width: 600px) {
+  .contact{
+    padding: 0rem 3rem 4rem 3rem; 
+}
+}
+
 /* For hd devices */
 @media screen and (min-width: 1250px) {
   .contact_container{

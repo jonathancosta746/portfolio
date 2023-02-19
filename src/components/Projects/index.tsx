@@ -41,8 +41,11 @@ export const Projects = () => {
 
   const {id}:null | any = useParams();
 
+  //filtro para inverter a ordem do array, para que itens adcionados por ultimo, e consequentemente mais recentes, sejam exibidos primeiro no map
+  const projectsReversePosition = projects.slice(0).reverse();
+
   //filtro para remover do map item que ja esta sendo exibido na sessão detalhes
-  let projectsFiltered = projects.filter(project => project.id !== id);
+  let projectsFiltered = projectsReversePosition.filter(project => project.id !== id);
 
   return (
     <div className={styles.project}>

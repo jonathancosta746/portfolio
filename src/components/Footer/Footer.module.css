@@ -42,14 +42,15 @@
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For hd devices */
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 600px) {
     .footer_container{
-        padding: 0rem 8rem 0rem 8rem; 
+        padding: 2rem 8rem 2rem 8rem; 
         flex-direction: row;
         justify-content: space-around;
     }
-
+  }
+/* For hd devices */
+@media screen and (min-width: 1250px) {
     .footer_logo{
         padding-top: 4rem;
         width: 15rem;

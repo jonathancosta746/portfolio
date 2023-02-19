@@ -20,6 +20,14 @@ i{
 }
 
 /*=============== BREAKPOINTS ===============*/
+@media screen and (min-width: 600px) {
+    .technologies_content{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        padding: 0rem 5rem 3rem 5rem; 
+    }
+
+}
 /* For hd devices */
 @media screen and (min-width: 1250px) {
     .technologies{

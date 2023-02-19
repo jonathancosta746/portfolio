@@ -38,7 +38,7 @@ export const Contact = () => {
                     </div>
 
                     <div className={styles.form_group}>
-                        <input type="number" placeholder="Telefone" name="Telefone do Cliente" id="number" required></input>
+                        <input type="tel" placeholder="Telefone" name="Telefone do Cliente" id="number" required></input>
                     </div>
 
                     <div className={styles.form_group}>
