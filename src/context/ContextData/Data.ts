@@ -94,8 +94,8 @@ export const data = [
         "link_web":"https://gerenciadortarefas-react-js.netlify.app/",
         "show_github": true,
         "link_github": "https://github.com/jonathancosta746/Gerenciador-de-Tarefas-React-Js",
-        "link_youtube": "",
-        "show_youtube": false,
+        "link_youtube": "//www.youtube.com/embed/bRhhu_J03U4",
+        "show_youtube": true,
         "technologies": ["React.Js", "Javascript", "React Router", "Rotas Privadas e Públicas", "Firebase", "Material Design"],
     },
     {
@@ -107,9 +107,9 @@ export const data = [
         "full_description": "Site criado utilizando NEXT.js para o corretor de imóveis Kelvin Tomé. O site possui em sua página inicial um slide que exibe os principais empreendimentos da carteira do corretor, bem como uma seção de contato para que o cliente possa preencher suas informações e o corretor possa recebê-las em seu e-mail e contatar o cliente para iniciar o atendimento. O site também conta com uma página de portfólio, onde o cliente pode visualizar todos os imóveis disponíveis. Além disso, há uma página dedicada a cada imóvel, com suas devidas especificações.",
         "link_web":"https://kelvintome.vercel.app/",
         "show_github": false,
-        "link_github": "https://github.com/jonathancosta746/Gerenciador-de-Tarefas-React-Js",
-        "link_youtube": "",
-        "show_youtube": false,
+        "link_github": "",
+        "link_youtube": "//www.youtube.com/embed/Xm14pmlErh4",
+        "show_youtube": true,
         "technologies": ["Next.Js", "Typescript", "Swipper.JS", "Material Design", "React Reveal" ],
     },
 ]
