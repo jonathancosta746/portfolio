@@ -44,8 +44,8 @@ export const data = [
     {
         "id": "3",
         "name": "Super Mario",
-        "static_img": "https://user-images.githubusercontent.com/26524921/171071258-e496dfb3-7057-41a8-9ecb-f32eecf8cbcc.png",
-        "description_img": "https://user-images.githubusercontent.com/26524921/210449653-407ce35f-5bfa-4db3-b265-841b600ae1ca.png",
+        "static_img": "/images/projects/supermario/home_image.png",
+        "description_img": "/images/projects/supermario/description_image.png",
         "short_description": "Jogo Criado utilizando Javacript e DOM para manipulação de classes do CSS",
         "full_description": "Jogo Criado utilizando Javacript e DOM para manipulação de classes do CSS",
         "link_web":"https://jonathancosta746.github.io/Game-SuperMario/",
