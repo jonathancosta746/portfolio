@@ -30,8 +30,8 @@
 
 .hamburguer{
     position: fixed;
-    top: 5%;
-    right: 7%;
+    top: 3rem;
+    right: 3rem;
     width: 30px;
     height: 6px;
     border-radius: 5px;
@@ -92,7 +92,7 @@
 }
 
 .icon.iconActive .hamburguer{
-    top: 2rem;
+    top: 3rem;
     background: transparent;
     box-shadow:  0 2px 5px transparent; 
 }
@@ -122,18 +122,53 @@
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For full HD devices */
-@media screen and (min-width: 1900px) {
-    .list .listItems li{
-        font-size: 2rem;
-    }
-
-    .icon{
-        right: 4%;
+/* For horizontal view on mobile device*/
+@media screen and (max-height: 600px) {
+    .hamburguer{
+        top: 2rem!important;
     }
 
     .icon.iconActive .hamburguer{
-        top: 3rem;
+        top: 2rem!important;
+    }
+
+    .list .listItems li{
+        font-size: 1rem;
+        padding: 0rem;
+        margin: .5rem;
+    }
+}
+
+/* For tablet devices */
+@media screen and (min-width: 600px) {
+    .icon{
+        right: 4rem;
+    }
+
+    .icon.iconActive .hamburguer{
+        top: 2.5rem;
+    }
+}
+
+/* For hd devices */
+@media screen and (min-width: 1250px) {
+    .icon.iconActive .hamburguer{
+        top: 2.5rem;
+    } 
+}
+
+/* For full HD devices */
+@media screen and (min-width: 1900px) {
+    .list .listItems li{
+        font-size: 1.5rem;
+    }
+
+    .icon{
+        right: 4rem;
+    }
+
+    .icon.iconActive .hamburguer{
+        top: 3.5rem;
     }
 }
   
@@ -142,13 +177,12 @@
     .icon{
         top: 1%;
         right: 5%;
-        z-index: 10;
         width: 12rem;
         height: 12rem;
     }
 
     .list .listItems li{
-        font-size: 4rem;
+        font-size: 3rem;
         padding: 2rem;
     }
 

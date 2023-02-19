@@ -57,9 +57,13 @@ export const Projects = () => {
                         spaceBetween= {16}
                         pagination={{clickable: true,}}
                         modules={[FreeMode, Pagination]}
-                        breakpoints={{                            
-                            // when window width is >= 768px
-                            768: {
+                        breakpoints={{   
+                            // when window width is >= 600px
+                            500: {
+                                slidesPerView: 1.50,
+                              },                         
+                            // when window width is >= 600px
+                            600: {
                               slidesPerView: 2.25,
                             },
                             // when window width is >= 1200px

@@ -57,6 +57,7 @@
 
 
 /*=============== BREAKPOINTS ===============*/
+/* For Tablet devices */
 @media screen and (min-width: 600px) {
     .degree_item{
         padding: 0rem 7rem 0em 3rem; 

@@ -89,12 +89,16 @@ button{
 
 
 /*=============== BREAKPOINTS ===============*/
-/* For hd devices */
-@media screen and (min-width: 1250px) {
+/* For Tablet devices */
+@media screen and (min-width: 500px) {
   .swiper-wrapper{
     padding-bottom: 6rem;
   }
+}
 
+/* For hd devices */
+@media screen and (min-width: 1250px) {
+ 
   .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     margin-bottom: 2.5rem!important;
   }

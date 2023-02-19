@@ -12,6 +12,12 @@
     padding-right: 1rem;
 }
 
+.work_detail p:nth-child(2){
+    font-size: .9rem;
+    padding: .2rem 0;
+    text-transform: uppercase;
+}
+
 .work_image{
     grid-area: work_image;
     display: flex;
@@ -37,6 +43,7 @@
 }
 
 /*=============== BREAKPOINTS ===============*/
+/* For tablets devices */
 @media screen and (min-width: 600px) {
     .work_item{
         grid-template-areas:
@@ -83,12 +90,16 @@
         padding-bottom: 3rem;
     }
 
+    .work_detail p:nth-child(2){
+        font-size: 1rem;
+    }
+
     .work_detail > h2 {
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
 
     .work_detail > p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .work_img{
@@ -113,6 +124,12 @@
     .work_detail > p {
         font-size: 2.5rem;
         padding-right: 20rem;
+    }
+
+    .work_detail p:nth-child(2){
+        font-size: 1.8rem;
+        padding: .2rem 0;
+        text-transform: uppercase;
     }
 
     .work_img{

@@ -20,6 +20,7 @@ i{
 }
 
 /*=============== BREAKPOINTS ===============*/
+/* For tablets devices */
 @media screen and (min-width: 600px) {
     .technologies_content{
         grid-template-columns: repeat(3, 1fr);
