@@ -71,7 +71,7 @@ export const data = [
         "technologies": ["React.Js", "Javascript", "API"],
     },
     {
-        "id": "6",
+        "id": "5",
         "name": "To-do List",
         "static_img": "/images/projects/todo/home_image.png",
         "description_img": "/images/projects/todo/description_image.png",
@@ -85,7 +85,7 @@ export const data = [
         "technologies": ["React.Js", "Javascript", "React Router", "Rotas Privadas e Públicas", "Firebase", "Material Design"],
     },
     {
-        "id": "7",
+        "id": "6",
         "name": "Kelvin Tomé - Corretor",
         "static_img": "/images/projects/kelvintome_site/home_image.png",
         "description_img": "/images/projects/kelvintome_site/description_image.png",
