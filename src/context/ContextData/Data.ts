@@ -93,7 +93,7 @@ export const data = [
         "link_web":"https://kelvintome.vercel.app/",
         "show_github": false,
         "link_github": "",
-        "link_youtube": "//www.youtube.com/embed/Xm14pmlErh4",
+        "link_youtube": "//www.youtube.com/embed/QLCRJRYJ1xI",
         "show_youtube": true,
         "technologies": ["Next.Js", "Typescript", "Swipper.JS", "Material Design", "React Reveal" ],
     },
