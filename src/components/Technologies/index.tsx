@@ -32,47 +32,47 @@ export const Tecnologies = () => {
               <i className="devicon-react-original colored"></i>
               <p>ReactJs/Native</p>
             </div>
-            <div>
+            <div className={styles.technologies_item}>
             <img src={LogoNext} alt="Next.Js" className={styles.technologies_img} /> 
               <p>Next.Js</p>
             </div>
-            <div>
+            <div className={styles.technologies_item}>
               <i className="devicon-typescript-plain colored"></i>
               <p>TypeScript</p>
             </div>
-            <div>
+            <div className={styles.technologies_item}>
               <i className="devicon-javascript-plain colored"></i>
               <p>JavaScript</p>
             </div>
-            <div>
+            <div className={styles.technologies_item}>
               <img src={LogoStyledComponents} alt="styled-components-logo" className={styles.technologies_img} />  
               <p>Styled-Components</p>
             </div>
-            <div>
+            <div className={styles.technologies_item}>
               <i className="devicon-sass-original colored"></i>
               <p>Sass</p>
             </div>
-            <div>
+            <div className={styles.technologies_item}>
               <i className="devicon-materialui-plain colored"></i>
               <p>Material UI</p>
             </div>
-            <div>
+            <div className={styles.technologies_item}>
               <i className="devicon-nodejs-plain colored"></i>
               <p>Node.Js</p>
             </div>
-            <div>
+            <div className={styles.technologies_item}>
               <img src={LogoAPIRestFull} alt="API Restful-logo" className={styles.technologies_img} /> 
               <p>API RESTful</p>
             </div>
-            <div>
+            <div className={styles.technologies_item}>
               <i className="devicon-git-plain colored"></i>
               <p>Git</p>
             </div>      
-            <div>
+            <div className={styles.technologies_item}>
               <i className="devicon-photoshop-line colored"></i>
               <p>Photoshop</p>
             </div>         
-            <div>
+            <div className={styles.technologies_item}>
               <i className="devicon-figma-plain colored"></i>
               <p>Figma</p>
             </div>         

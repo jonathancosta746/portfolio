@@ -6,17 +6,20 @@
 
 .technologies_content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.technologies_item{
+    margin-bottom: 1.8rem;
 }
 
 i{
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 
 .technologies_img {
-    width: 45px;
+    width: 2.2rem;
 }
 
 /*=============== BREAKPOINTS ===============*/
