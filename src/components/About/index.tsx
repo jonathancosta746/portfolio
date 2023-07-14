@@ -14,7 +14,7 @@ export const About = () => {
           <p>          
           Iniciei minha jornada profissional trabalhando em grandes hospitais de Brasília, onde tive a oportunidade de trabalhar diretamente com a equipe da Philips na migração de sistemas de um hospital, neste período atuei no treinamento das equipes, e na alimentação de dados do sistema.
           <br/><br/>
-          Com esta experiência me apaixonei pela área tecnológica. Atualmente possuo conhecimento em desenvolvimento Web e na área de dados com Power BI e Python. 
+          Com esta experiência me apaixonei pela área tecnológica. Atualmente possuo conhecimento em desenvolvimento Web e na área de dados. 
           <br/><br/>
           Tenho como foco atual buscar conhecimentos para me desenvolver como analista de dados, sendo assim estou cursando Análise e Desenvolvimento de Sistemas onde tenho contato diário com Power BI e Python. Também busco sempre realizar cursos para poder me aperfeiçoar.
 
