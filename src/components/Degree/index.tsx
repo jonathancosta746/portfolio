@@ -5,6 +5,7 @@ import LogoDio from '../../assets/images/degree/dio_logo.png';
 import LogoUdemy from '../../assets/images/degree/Udemy-logo.png';
 import LogoBradesco from '../../assets/images/degree/logo-fundacao-bradesco.png';
 import LogoOrangeTech from '../../assets/images/degree/orangeTech.png';
+import LogoEnap from '../../assets/images/degree/enap.png';
 
 //React Reveal para animações de exibição
 import {Fade} from 'react-reveal';
@@ -32,6 +33,36 @@ export const Degree = () => {
       </div>
 
       <span></span>
+
+      <div className={styles.degree_item}>
+        <Fade>
+          <div className={styles.degree_image}>
+            <img src={LogoEnap} alt="Logo Enap" className={styles.degree_img}/>
+          </div>
+        </Fade> 
+      
+        <Fade>
+          <div className={styles.degree_detail}>
+            <h2>Introdução à Lei Brasileira de Proteção de Dados Pessoais</h2>
+            <p>Enap - Escola Nacional de Administração Pública - 2023</p>
+          </div>
+        </Fade> 
+      </div>
+
+      <div className={styles.degree_item}>
+        <Fade>
+          <div className={styles.degree_image}>
+            <img src={LogoUdemy} alt="Logo Udemy" className={styles.degree_img}/>
+          </div>
+        </Fade> 
+      
+        <Fade>
+          <div className={styles.degree_detail}>
+            <h2>Formação Microsoft Power BI Profissional</h2>
+            <p>Udemy - 2023</p>
+          </div>
+        </Fade> 
+      </div>
 
       <div className={styles.degree_item}>
         <Fade >

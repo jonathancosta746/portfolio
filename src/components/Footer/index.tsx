@@ -33,7 +33,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <p className={styles.footer_right}>Jonathan Costa 2022. Todos os direitos reservados.</p>
+        <p className={styles.footer_right}>Jonathan Costa 2023. Todos os direitos reservados.</p>
       </Fade>
     </footer>
   )

@@ -2,6 +2,7 @@ import styles from './Technologies.module.css'
 import LogoStyledComponents from '../../assets/images/technologies/styled-components-logo.png'
 import LogoAPIRestFull from '../../assets/images/technologies/Logo_API_RESTFUL.png'
 import LogoNext from '../../assets/images/technologies/nextjs-logo.png'
+import LogoPowerBi from '../../assets/images/technologies/powerbi.svg'
 
 //React Reveal para animações de exibição
 import {Fade} from 'react-reveal';
@@ -14,6 +15,14 @@ export const Tecnologies = () => {
         </Fade>
         <Fade>
           <div className={styles.technologies_content}>
+            <div>
+            <img src={LogoPowerBi} alt="styled-components-logo" className={styles.technologies_img} /> 
+              <p>Power BI</p>
+            </div>
+            <div className={styles.technologies_item}>
+              <i className="devicon-python-plain colored"></i>
+              <p>Python</p>
+            </div>
             <div className={styles.technologies_item}>
               <i className="devicon-react-original colored"></i>
               <p>ReactJs/Native</p>
@@ -62,9 +71,12 @@ export const Tecnologies = () => {
               <i className="devicon-photoshop-line colored"></i>
               <p>Photoshop</p>
             </div>         
+            <div>
+              <i className="devicon-figma-plain colored"></i>
+              <p>Figma</p>
+            </div>         
           </div>
-        </Fade >
-                        
+        </Fade >                   
     </div>
   )
 }

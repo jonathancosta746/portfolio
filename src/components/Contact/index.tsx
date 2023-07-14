@@ -14,7 +14,7 @@ export const Contact = () => {
             <div className={styles.contact_container}>
                 <div className={styles.contact_info}>
                     <h2>Envie uma mensagem<span>.</span></h2>
-                    <p>Mande uma mensagem que entrarei em contato o mais breve possivel.</p>
+                    <p>Mande uma mensagem que entrarei em contato o mais breve possível.</p>
                     <div>
                         <a href="mailto:jonathancosta746@gmail.com">
                             <div className={styles.contact_item}>
