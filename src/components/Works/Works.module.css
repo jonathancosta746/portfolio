@@ -77,12 +77,9 @@
         grid-template-columns: repeat(5, 1fr);
     }
 
-    .work_detail{
-        padding-left: 1rem;
-    }
 
     .work_info{
-        padding-left: 1rem;
+        padding-left: .5rem;
         font-size: 1.1rem;
     }
 
@@ -92,18 +89,16 @@
 
     .work_detail > h2 {
         font-size: 2rem;
-    }
+        padding-left: .5rem;
 
-    .work_detail > p {
-        font-size: 1.4rem;
     }
 
     .work_img{
-        max-width: 9rem;
-        max-height: 9rem;
+        max-width: 10rem;
+        max-height: 10rem;
         margin-left: .5rem;
-        border-right: solid 1px wheat;
-        padding-right: 2rem;
+        border-right: solid 1px #3c3752;
+        padding-right: 3rem;
     }
 
     .work_image{
@@ -144,6 +139,7 @@
 
     .work_detail > h2 {
         font-size: 2rem;
+        padding: 0;
     }
 
     .work_detail > p {
@@ -154,7 +150,6 @@
         max-width: 9rem;
         max-height: 9rem;
         margin-left: 7rem;
-        border-right: solid 1px wheat;
         padding-right: 2rem;
     }
 
@@ -193,7 +188,7 @@
 
     .work_img{
         margin-left: 7rem;
-        border-right: solid 2px wheat;
+        border-right: solid 2px #3c3752;
         padding-right: 4rem;
     }
 
