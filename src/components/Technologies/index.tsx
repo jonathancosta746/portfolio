@@ -3,6 +3,7 @@ import LogoStyledComponents from '../../assets/images/technologies/styled-compon
 import LogoAPIRestFull from '../../assets/images/technologies/Logo_API_RESTFUL.png'
 import LogoNext from '../../assets/images/technologies/nextjs-logo.png'
 import LogoPowerBi from '../../assets/images/technologies/powerbi.svg'
+import LogoSQL from '../../assets/images/technologies/sql logo.png'
 
 //React Reveal para animações de exibição
 import {Fade} from 'react-reveal';
@@ -16,19 +17,23 @@ export const Tecnologies = () => {
         <Fade>
           <div className={styles.technologies_content}>
             <div>
-            <img src={LogoPowerBi} alt="styled-components-logo" className={styles.technologies_img} /> 
+            <img src={LogoPowerBi} alt="Power BI" className={styles.technologies_img} /> 
               <p>Power BI</p>
             </div>
             <div className={styles.technologies_item}>
               <i className="devicon-python-plain colored"></i>
               <p>Python</p>
             </div>
+            <div>
+            <img src={LogoSQL} alt="SQL" className={styles.technologies_img} /> 
+              <p>SQL</p>
+            </div>
             <div className={styles.technologies_item}>
               <i className="devicon-react-original colored"></i>
               <p>ReactJs/Native</p>
             </div>
             <div>
-            <img src={LogoNext} alt="styled-components-logo" className={styles.technologies_img} /> 
+            <img src={LogoNext} alt="Next.Js" className={styles.technologies_img} /> 
               <p>Next.Js</p>
             </div>
             <div>
@@ -50,10 +55,6 @@ export const Tecnologies = () => {
             <div>
               <i className="devicon-materialui-plain colored"></i>
               <p>Material UI</p>
-            </div>
-            <div>
-              <i className="devicon-mysql-plain-wordmark"></i>
-              <p>MySQL</p>
             </div>
             <div>
               <i className="devicon-nodejs-plain colored"></i>
