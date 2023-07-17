@@ -69,4 +69,19 @@ export const data = [
         "show_youtube": true,
         "technologies": ["Next.Js", "Typescript", "Swipper.JS", "Material Design", "React Reveal" ],
     },
+    {
+        "id": "5",
+        "name": "Eleições 2022",
+        "static_img": "/images/projects/eleicoes/home_image.png",
+        "description_img": "/images/projects/eleicoes/description_image.png",
+        "short_description": "Dashboard criado com Power BI inspirado na tela utilizada pela Rede Globo durante as eleições 2022.",
+        "full_description": "Dashboard criado com inspiração no painel utilizado pela Rede Globo de Televisão durante as eleições brasileiras de 2022. A base de dados do projeto foi retirada do banco de dados disponibilizado pelo Tribunal Superior Eleitoral - TSE, para criação da dashboard foi utilizando Power BI, com suas ferramentas como DAX. O design foi feito através do Figma",
+        "link_web":"https://app.powerbi.com/view?r=eyJrIjoiOGIzMWNiZDYtZWJhNS00YTU5LWIzNTMtODU3OGRhNDQwZjY3IiwidCI6IjhmZDA1OTFhLTJjYzAtNGI3ZS04OTcyLTk1OTZhNTZmZWFmZSJ9&pageName=ReportSection4a968e3644574b827085",
+        "show_github": false,
+        "link_github": "",
+        "link_youtube": "//www.youtube.com/embed/-I-PK_dJLrI",
+        "show_youtube": true,
+        "technologies": ["Power Bi", "Figma" ],
+    },
+   
 ]
