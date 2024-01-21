@@ -107,7 +107,6 @@
         justify-content: right;
         align-items: center;
         border-right: solid 1px #3c3752;
-        padding-right: 8rem;
     }    
 }
   
@@ -152,6 +151,10 @@
         margin-left: 7rem;
         margin-right: 2rem;
     }
+
+    .work_image{
+        padding-right: 8rem;
+    }  
 }
 
 /* For 2k and 4k devices */
