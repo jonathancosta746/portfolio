@@ -11,13 +11,9 @@ export const About = () => {
         </Fade>
 
         <Fade>
-          <p>          
-          &emsp;&emsp;Iniciei minha jornada profissional trabalhando em grandes hospitais de Brasília, onde tive a oportunidade de trabalhar diretamente com a equipe da Philips na migração de sistemas de um hospital, neste período atuei no treinamento das equipes, e na alimentação de dados do sistema.
+          <p>
+          &emsp;&emsp;Sou um analista de dados apaixonado por transformar dados brutos em insights valiosos, criando painéis interativos e relatórios detalhados que auxiliam na tomada de decisões estratégicas, com uma abordagem analítica e orientada a resultados. Realizando modelagem dos dados com processos ETL e linguagem SQL para manipulação de registros em bancos de dados. 
           <br/><br/>
-          &emsp;&emsp;Com esta experiência me apaixonei pela área tecnológica. Atualmente possuo conhecimento em desenvolvimento Web e na área de dados. 
-          <br/><br/>
-          &emsp;&emsp;Tenho como foco atual buscar conhecimentos para me desenvolver como analista de dados, sendo assim estou cursando Análise e Desenvolvimento de Sistemas onde tenho contato diário com Power BI e Python. Também busco sempre realizar cursos para poder me aperfeiçoar.
-
           </p>
         </Fade>
       </div>  

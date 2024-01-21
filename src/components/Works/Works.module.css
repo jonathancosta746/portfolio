@@ -22,14 +22,16 @@
     grid-area: work_image;
     display: flex;
     justify-content: left;
+    padding: 20px;
 }
 
 .work_img{
     display: flex;
     margin: 0;
     max-width: 7rem;
-    padding: 20px;
     opacity: .9;
+    border-radius: 1rem;
+  
 }
 
 .work_detail{
@@ -79,33 +81,33 @@
 
 
     .work_info{
-        padding-left: .5rem;
+        padding-left: 3rem;
         font-size: 1.1rem;
     }
 
     .work_detail p:nth-child(2){
         font-size: 1rem;
+        padding-left: 3rem;
     }
 
     .work_detail > h2 {
         font-size: 2rem;
-        padding-left: .5rem;
+        padding-left: 3rem;
 
     }
 
     .work_img{
-        max-width: 10rem;
+        max-width: 6rem;
         max-height: 10rem;
-        margin-left: .5rem;
-        border-right: solid 1px #3c3752;
-        padding-right: 3rem;
     }
 
     .work_image{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: right;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        border-right: solid 1px #3c3752;
+        padding-right: 8rem;
     }    
 }
   
@@ -123,23 +125,21 @@
         grid-template-columns: repeat(5, 1fr);
     }
 
-    .work_detail{
-        padding-left: 1rem;
-    }
-
     .work_info{
-        padding-left: 1rem;
+        padding-left: 3rem;
         padding-right: 2rem;
         font-size: 1.1rem;
     }
 
     .work_detail p:nth-child(2){
         font-size: 1rem;
+        padding-left: 3rem;
     }
 
     .work_detail > h2 {
         font-size: 2rem;
         padding: 0;
+        padding-left: 3rem;
     }
 
     .work_detail > p {
@@ -147,18 +147,11 @@
     }
 
     .work_img{
-        max-width: 9rem;
-        max-height: 9rem;
+        max-width: 6.5rem;
+        max-height: 6.5 rem;
         margin-left: 7rem;
-        padding-right: 2rem;
+        margin-right: 2rem;
     }
-
-    .work_image{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: right;
-    }    
 }
 
 /* For 2k and 4k devices */
@@ -171,29 +164,25 @@
         padding-bottom: 5rem;
     }
 
-    .work_detail > h2 {
+     .work_detail > h2 {
         font-size: 3.5rem;
+        padding-left: 9rem;
     }
-
 
     .work_info{
         font-size: 2.8rem;
+        padding-left: 9rem;
     }
 
     .work_detail p:nth-child(2){
         font-size: 2.2rem;
-        padding: .2rem 0;
-        text-transform: uppercase;
+        padding-left: 9rem;
     }
 
     .work_img{
         margin-left: 7rem;
-        border-right: solid 2px #3c3752;
-        padding-right: 4rem;
+        max-width: 14rem;
+        max-height: 14rem;
     }
 
-    .work_img{
-        max-width: 22rem;
-        max-height: 22rem;
-    }
 }

@@ -1,5 +1,5 @@
 export const data = [
-    {
+    /*{
         "id": "0",
         "name": "Interface Administrador - Loja",
         "static_img": "https://user-images.githubusercontent.com/26524921/163629344-e60601d5-7aff-4ed4-8a7d-a386a2c99c02.png",
@@ -54,9 +54,9 @@ export const data = [
         "link_youtube": "//www.youtube.com/embed/bRhhu_J03U4",
         "show_youtube": true,
         "technologies": ["React.Js", "Javascript", "React Router", "Rotas Privadas e Públicas", "Firebase", "Material Design"],
-    },
+    },*/
     {
-        "id": "4",
+        "id": "0",
         "name": "Kelvin Tomé - Corretor",
         "static_img": "/images/projects/kelvintome_site/home_image.png",
         "description_img": "/images/projects/kelvintome_site/description_image.png",
@@ -70,7 +70,7 @@ export const data = [
         "technologies": ["Next.Js", "Typescript", "Swipper.JS", "Material Design", "React Reveal" ],
     },
     {
-        "id": "5",
+        "id": "1",
         "name": "Eleições 2022",
         "static_img": "/images/projects/eleicoes/home_image.png",
         "description_img": "/images/projects/eleicoes/description_image.png",
